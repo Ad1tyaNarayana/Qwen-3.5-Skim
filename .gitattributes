@@ -1,0 +1,4 @@
+# The experiment manifests hash exact bytes, including the original line endings.
+evidence/** -text
+training/** -text
+routing_replay/** -text

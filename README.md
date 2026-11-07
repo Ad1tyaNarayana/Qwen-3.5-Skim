@@ -32,7 +32,7 @@ On 96 fresh RULER prompts at ~16K tokens, at routing threshold p = 0.90:
 
 ## Training
 
-- **Data:** 64 PG-19 books × 16,384 tokens plus 64 WikiText-2 articles × 4,096 tokens. That's 1,310,720 unique tokens over 2 epochs (≈2.62M token exposures), one document per example with no packing.
+- **Data:** 64 PG-19 books × 16,384 tokens plus 64 WikiText-2 articles × 4,096 tokens. That's 1,310,720 input tokens per epoch (≈2.62M token exposures over two epochs), one document per example with no packing.
 - **Loss:** per-level KL(dense attention pooled into chunks ‖ router's predicted chunk distribution), summed over levels.
 - **Optimizer:** independent per-layer AdamW, betas (.9, .95), peak LR .032, WSD schedule (20 warmup updates, final 20% linear decay to 1% of peak), 256 updates per layer, seed 94121.
 - **Validation KL (R16):** PG-19 2.98 → 0.93; WikiText-2 2.31 → 0.63. An R4 run is included for comparison.
@@ -57,9 +57,12 @@ This is a small-budget **adaptation**, not a reproduction. None of the paper's q
 No GPU, model download or third-party packages needed (Python 3.10+):
 
 ```bash
-cd evidence
-python final_experiment_verify.py
+git clone https://github.com/Ad1tyaNarayana/Qwen-3.5-Skim.git
+cd Qwen-3.5-Skim
+python3 evidence/final_experiment_verify.py
 ```
+
+On Windows, use `py -3 evidence/final_experiment_verify.py`. A successful run prints `"status": "passed"`.
 
 It checks all 480 rows, the 96 paired prompts, source/prompt/checkpoint hashes, 279,688 routed layer calls with zero dense fallbacks, recomputes the paired intervals, and checks the scoring-sensitivity analysis. It does not rerun inference.
 
@@ -87,3 +90,11 @@ One trained checkpoint, one initialization, four synthetic task families and one
 - Zyphra, [*Subquadratic Attention with a Hierarchical Tree-Structured Indexer*](https://arxiv.org/html/2610.42112v2).
 - The tree-of-summaries idea first clicked for me through Victor Taelin's [OptMem](https://github.com/VictorTaelin/OptMem).
 - Evaluation prompts are generated with [RULER](https://github.com/NVIDIA/RULER) at a pinned commit (see `evidence/protocol.json`).
+
+## License and attribution
+
+The [MIT license](LICENSE) covers the original code in this repository. The license grant applies to code only.
+
+The evaluation prompts contain text from NVIDIA’s RULER templates. Copyright (c) 2024, NVIDIA CORPORATION. All rights reserved. [Pinned templates](https://github.com/NVIDIA/RULER/blob/db43f92ff634bbce1c33d1fb15858aec4bba509a/scripts/data/synthetic/constants.py) · [RULER license](licenses/RULER-Apache-2.0.txt)
+
+The base model and training corpora are distributed separately. [Qwen3.5-4B-Base model card](https://huggingface.co/Qwen/Qwen3.5-4B-Base) · [PG-19](https://github.com/google-deepmind/pg19) · [WikiText-2](https://huggingface.co/datasets/Salesforce/wikitext)
