@@ -1,0 +1,25 @@
+{
+  "source_sha256": {
+    "final_experiment_lock.py": "68c8f0c6358681901a3b8b986db925379eb9a274743ea15cee4f4ded90059663",
+    "final_experiment_prepare.py": "ad2f9e5437c3a4ceaa31242556ccc0426dbf40f5236273c3ea5dd3cb33583f15",
+    "final_experiment_eval.py": "9ef6d8ed6905c0a4fbcd80ec49f1dac4722e785fb5d01cde5e3d406ad24dd328",
+    "final_experiment_analyze.py": "e20aa1f914395eeaff814b7e41ddc9c31ba535e0857f8934ac0ccbcb0bb35c47",
+    "final_router_counter.py": "e7c2c5a9a4645ce5bddafb60b3f26c7f26a8f5a6401767855648a6950358109b",
+    "test_final_router_counter.py": "80161f3d888bfb22be6202e41b96314e5ba82ac2afbea51257c663b2ba4ad64a",
+    "zha_l6_controlled.py": "22ce51ec2e8109cc0bbe85e8a86b5fcf701712def4ad7564fd905fcb04896273",
+    "zha_l6_sparse.py": "13ed32477581dafbbedd8c9a43e6440b0b3e3c89e3a23e6436d3f3220feb9f0c",
+    "zha_l6_reference.py": "991de5dc255d9eb23dd38504057eec6c6fa52cdd7d867ec405cce2476905daa2",
+    "vector_router.py": "fca672825ccdc68b77008e77ed0995211f41e6387f5458a454551bea7ababd2e",
+    "maskless_decode_router.py": "ed6bf8b70b220c9a8f6a9ccd7a45eeb9b2a2bf38b0b593da640714b256222a3d",
+    "sparse_kernel.py": "4a9b981b110be79d5c1bb10871e402341f23f6ea881f7ded99bba150845e75e7",
+    "incremental_tree.py": "23d6a1d96768dbae45e6fd4d875a0fd8d4995c115656e0051adffcabcb03510f"
+  },
+  "trained_router_sha256": "8207f0c20c0f013cb45fc0e083bebd6d81b34c392c06bea1e2f406c01438a7f4",
+  "training_checkpoint_sha256": "7e4d5815af72b2d95395528ea5bfef4c18bbc25df49de390751deff65850fa8c",
+  "initial_tensor_sha256": "c8ba383ce2b30c360888c3d2b8b52de912f45d3a21667476bbdd6bbe21d8e112",
+  "trained_reference_tensor_sha256": "d56b56a0ecf608ae115c7e1d8409fccc3de317c2d653f3d794ab1c16a5f692cf",
+  "protocol_sha256": "1bada0607884e2c7c3cda87b819116bf69eb61531635cfabaf8d8f5305cfcc90",
+  "manifest_sha256": "c4ffe0ff6dde780a84c996b5c11c4e9281ce6c9f2f46e3e37cf076984e13ee37",
+  "initialization_check": "saved router and optimizer checkpoint initial tensors exactly match seed 94121 in all eight layers",
+  "verification": "saved final references match the controlled pre-32K training checkpoint in all eight layers"
+}

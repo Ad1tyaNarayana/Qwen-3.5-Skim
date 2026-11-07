@@ -1,0 +1,22 @@
+{
+  "tokens": 192,
+  "p": 1,
+  "dense_sparse_max_abs_logits": 1.6875,
+  "dense_sparse_mean_abs_logits": 0.025911420583724976,
+  "dense_sparse_last_top1_equal": true,
+  "sparse_cached_max_abs_logits": 0.1875,
+  "sparse_cached_mean_abs_logits": 0.021764220669865608,
+  "sparse_cached_top1_equal": true,
+  "sampled_true_mass_mean": 0.9999999975164732,
+  "sampled_head_queries": 384,
+  "full_attention_layers": [
+    3,
+    7,
+    11,
+    15,
+    19,
+    23,
+    27,
+    31
+  ]
+}

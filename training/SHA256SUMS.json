@@ -1,0 +1,22 @@
+{
+  "historical_full_report.md": "082cfdd79a72d034b62c0efd849e66dc1c8cf9b6a74297b0ff7a397f75761776",
+  "TRAINING_RUN.txt": "c6ac572bc082cff135ed436d7758613cd855b4a8b1e8c963625b924d678d9de8",
+  "code/plan_boundary_overlap.py": "fe9049ee46cc1576121c813b1da6d2debf5a02eff9d9c32dc56ef3aab20e492c",
+  "code/plan_boundary_prepare.py": "857bf288430e16843e0e3c6776415cb1098c376e028355d8727cf36588fd9c0b",
+  "code/plan_zha_l6_training_summary.py": "c7f5406b89a0d2adcd5cbd0ab8c1fbed3859be44645b443421b3a8e4d5650802",
+  "code/r16_multilevel_loss.py": "e808fac9f4b97ebb4f4cae31c8645cd483ed174888e1731ce399881aa26c226f",
+  "code/train_zha_l6_controlled.py": "cf9f362e65242f90e5851675b1951fd8943f478a52727bd793fd4224ef87bac3",
+  "code/vector_router.py": "fca672825ccdc68b77008e77ed0995211f41e6387f5458a454551bea7ababd2e",
+  "code/zha_l6_controlled.py": "22ce51ec2e8109cc0bbe85e8a86b5fcf701712def4ad7564fd905fcb04896273",
+  "records/dataset_manifest.json": "a0a9c2da99ca8833e9c6348cdec25bf33dea3df11c2c36c818b3bc190c215868",
+  "records/data_audit.json": "b614538a0a4795a227229f036891e1478442d11848a4d0b453ffa360d9472941",
+  "records/mask_fix_note.json": "a950c702fc876870881e48c9d734817df7924d6a95a74f0dd85885e3159bc578",
+  "records/pretrained_p1_control.json": "dfdd63fa711c48195cf65cd03df69e5aab27194b7ab3c0b5b3a2200911f541a1",
+  "records/R16_training.json": "ff64c1fe4a72314903c278d82e7c4dbb7e99e4338ef11edf1142e8785771236a",
+  "records/R4_training.json": "0ec674d71cafde4f7d816ecc484597b6c3fc4b0f3b60d75a18d63fa7fd19f9b3",
+  "records/split_overlap.json": "940fb995804dfa9cfc166350b0888925cecdf5f1c69263dad2f3210c24003d37",
+  "records/training_protocol.json": "9415e8d266a6a594c9a4a10ad00b37ea0f765d02dc6c9948858ec68193ea9f54",
+  "records/training_summary.json": "6bcc42c8696e460730d9b785fbc90b15a4a2c041cdd5cb5adc2e002456466aa4",
+  "checkpoints/R16/checkpoint.pt": "7e4d5815af72b2d95395528ea5bfef4c18bbc25df49de390751deff65850fa8c",
+  "checkpoints/R16/router.pt": "8207f0c20c0f013cb45fc0e083bebd6d81b34c392c06bea1e2f406c01438a7f4"
+}

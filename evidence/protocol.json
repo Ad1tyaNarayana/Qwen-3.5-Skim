@@ -1,0 +1,91 @@
+{
+  "model": "Qwen/Qwen3.5-4B-Base",
+  "model_revision": "1001bb4d826a52d1f399e183466143f4da7b741b",
+  "ruler_commit": "db43f92ff634bbce1c33d1fb15858aec4bba509a",
+  "target_length": 16384,
+  "dev_cases_per_task": 1,
+  "final_cases_per_task": 24,
+  "task_specs": {
+    "vt": [
+      "variable_tracking",
+      [
+        "--type_haystack",
+        "noise",
+        "--num_chains",
+        "1",
+        "--num_hops",
+        "4"
+      ],
+      30
+    ],
+    "cwe": [
+      "common_words_extraction",
+      [
+        "--freq_cw",
+        "30",
+        "--freq_ucw",
+        "3",
+        "--num_cw",
+        "10"
+      ],
+      120
+    ],
+    "niah_distractor": [
+      "niah",
+      [
+        "--type_haystack",
+        "needle",
+        "--num_needle_k",
+        "4",
+        "--num_needle_v",
+        "3"
+      ],
+      128
+    ],
+    "niah_multikey": [
+      "niah",
+      [
+        "--type_haystack",
+        "noise",
+        "--num_needle_k",
+        "4",
+        "--num_needle_q",
+        "4",
+        "--num_needle_v",
+        "1"
+      ],
+      128
+    ]
+  },
+  "seeds": {
+    "dev": {
+      "vt": 291001,
+      "cwe": 291101,
+      "niah_distractor": 291201,
+      "niah_multikey": 291301
+    },
+    "final": {
+      "vt": 292001,
+      "cwe": 292101,
+      "niah_distractor": 292201,
+      "niah_multikey": 292301
+    }
+  },
+  "configurations": [
+    "dense",
+    "init_090",
+    "trained_090",
+    "init_095",
+    "trained_095"
+  ],
+  "router": "saved original R16 initialization or pre-32K controlled R16, C4/L6, sink+current chunk, adaptive top-p, grouped, both prefill/decode",
+  "batch": 1,
+  "prefill_chunk": 512,
+  "generation": "greedy, stop at EOS or task cap",
+  "metrics": "case-insensitive expected substrings: fraction recovered and all recovered; selected / causally visible head-query keys, prefill and decode separately",
+  "bootstrap": "10000 paired prompt-level resamples stratified by task; seed 4721; 95% percentile; no independent head/item resampling",
+  "measure_mass": false,
+  "disk_guards": "C: >=26 GiB, W: >=10 GiB; checked each block/group/tile/step",
+  "splits": "4 dev prompts separate from 96 final prompts; do not tune after inspecting answers",
+  "limitation": "generated synthetic tasks share templates; no semantic deduplication; p does not equal key budget"
+}

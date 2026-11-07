@@ -1,0 +1,7 @@
+{
+  "development_branches": 20,
+  "final_branches": 480,
+  "extrapolated_final_hours": 15.391389850000305,
+  "max_peak_allocated_gib": 9.343052864074707,
+  "qualification": "Development timing extrapolation only; output lengths, selections and system load may vary. Safety gate does not use answer scores."
+}

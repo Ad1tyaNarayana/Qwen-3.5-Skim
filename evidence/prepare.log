@@ -1,0 +1,184 @@
+GENERATE dev_vt seed 291001
+INFO:__main__:Estimated 48.0 tokens per haystack
+INFO:__main__:Starting binary search with bounds: 5 to 31
+INFO:__main__:Testing haystack size: 18, resulting tokens: 567/500
+INFO:__main__:Testing haystack size: 11, resulting tokens: 392/500
+INFO:__main__:Testing haystack size: 14, resulting tokens: 465/500
+INFO:__main__:Testing haystack size: 16, resulting tokens: 515/500
+INFO:__main__:Testing haystack size: 15, resulting tokens: 490/500
+INFO:__main__:Final optimal haystack size (number of haystack): 15
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|##########| 1/1 [00:00<00:00, 1943.61it/s]
+INFO:__main__:{'index': 0, 'input': 'Memorize and track the chain(s) of variable assignment hidden in the following text.\n\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nVAR UBU = 12345\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nVAR KJP = VAR UBU \nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nVAR MGM = VAR KJP \nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nVAR XSU = VAR MGM \nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nVAR VZY = VAR XSU \nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nQuestion: Find all variables that are assigned the value 12345 in the text above. Answer: According to the chain(s) of variable assignment in the text above, 5 variables are assigned the value 12345, they are: ', 'outputs': ['UBU', 'KJP', 'MGM', 'XSU', 'VZY'], 'length': 490}
+INFO:__main__:Estimated 37.8 tokens per haystack
+INFO:__main__:Starting binary search with bounds: 10 to 1300
+INFO:__main__:Testing haystack size: 655, resulting tokens: 17031/16384
+INFO:__main__:Testing haystack size: 332, resulting tokens: 8956/16384
+INFO:__main__:Testing haystack size: 493, resulting tokens: 12981/16384
+INFO:__main__:Testing haystack size: 574, resulting tokens: 15004/16384
+INFO:__main__:Testing haystack size: 614, resulting tokens: 16006/16384
+INFO:__main__:Testing haystack size: 634, resulting tokens: 16510/16384
+INFO:__main__:Testing haystack size: 624, resulting tokens: 16254/16384
+INFO:__main__:Testing haystack size: 629, resulting tokens: 16381/16384
+INFO:__main__:Testing haystack size: 631, resulting tokens: 16437/16384
+INFO:__main__:Testing haystack size: 630, resulting tokens: 16410/16384
+INFO:__main__:Final optimal haystack size (number of haystack): 629
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|##########| 1/1 [00:00<00:00, 67.50it/s]
+GENERATE dev_cwe seed 291101
+INFO:__main__:loaded 8166 wonderwords
+INFO:__main__:loaded 370101 randle words
+INFO:__main__:Estimated 23.3 tokens per haystack
+INFO:__main__:Starting binary search with bounds: 10 to 1402
+INFO:__main__:Testing haystack size: 706, resulting tokens: 18058/16384
+INFO:__main__:Testing haystack size: 357, resulting tokens: 10260/16384
+INFO:__main__:Testing haystack size: 531, resulting tokens: 13905/16384
+INFO:__main__:Testing haystack size: 618, resulting tokens: 16168/16384
+INFO:__main__:Testing haystack size: 662, resulting tokens: 17114/16384
+INFO:__main__:Testing haystack size: 640, resulting tokens: 16446/16384
+INFO:__main__:Testing haystack size: 629, resulting tokens: 16452/16384
+INFO:__main__:Testing haystack size: 623, resulting tokens: 16177/16384
+INFO:__main__:Testing haystack size: 626, resulting tokens: 16144/16384
+INFO:__main__:Testing haystack size: 627, resulting tokens: 16114/16384
+INFO:__main__:Testing haystack size: 628, resulting tokens: 16248/16384
+INFO:__main__:Final optimal haystack size (number of haystack): 628
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|##########| 1/1 [00:00<00:00, 74.22it/s]
+GENERATE dev_niah_distractor seed 291201
+INFO:__main__:Estimated 36.1 tokens per haystack
+INFO:__main__:Starting binary search with bounds: 25 to 1360
+INFO:__main__:Testing haystack size: 692, resulting tokens: 16250/16384
+INFO:__main__:Testing haystack size: 1026, resulting tokens: 23791/16384
+INFO:__main__:Testing haystack size: 859, resulting tokens: 20020/16384
+INFO:__main__:Testing haystack size: 775, resulting tokens: 18120/16384
+INFO:__main__:Testing haystack size: 733, resulting tokens: 17176/16384
+INFO:__main__:Testing haystack size: 712, resulting tokens: 16689/16384
+INFO:__main__:Testing haystack size: 702, resulting tokens: 16507/16384
+INFO:__main__:Testing haystack size: 697, resulting tokens: 16368/16384
+INFO:__main__:Testing haystack size: 699, resulting tokens: 16342/16384
+INFO:__main__:Testing haystack size: 700, resulting tokens: 16418/16384
+INFO:__main__:Final optimal haystack size (number of haystack): 699
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|##########| 1/1 [00:00<00:00, 26.39it/s]
+GENERATE dev_niah_multikey seed 291301
+INFO:__main__:Estimated 32.2 tokens per haystack
+INFO:__main__:Starting binary search with bounds: 25 to 1528
+INFO:__main__:Testing haystack size: 776, resulting tokens: 19722/16384
+INFO:__main__:Testing haystack size: 400, resulting tokens: 10313/16384
+INFO:__main__:Testing haystack size: 588, resulting tokens: 15007/16384
+INFO:__main__:Testing haystack size: 682, resulting tokens: 17363/16384
+INFO:__main__:Testing haystack size: 635, resulting tokens: 16197/16384
+INFO:__main__:Testing haystack size: 658, resulting tokens: 16766/16384
+INFO:__main__:Testing haystack size: 646, resulting tokens: 16460/16384
+INFO:__main__:Testing haystack size: 640, resulting tokens: 16322/16384
+INFO:__main__:Testing haystack size: 643, resulting tokens: 16397/16384
+INFO:__main__:Testing haystack size: 641, resulting tokens: 16329/16384
+INFO:__main__:Testing haystack size: 642, resulting tokens: 16366/16384
+INFO:__main__:Final optimal haystack size (number of haystack): 642
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|##########| 1/1 [00:00<00:00, 39.42it/s]
+GENERATE final_vt seed 292001
+INFO:__main__:Estimated 48.2 tokens per haystack
+INFO:__main__:Starting binary search with bounds: 5 to 31
+INFO:__main__:Testing haystack size: 18, resulting tokens: 567/500
+INFO:__main__:Testing haystack size: 11, resulting tokens: 390/500
+INFO:__main__:Testing haystack size: 14, resulting tokens: 468/500
+INFO:__main__:Testing haystack size: 16, resulting tokens: 516/500
+INFO:__main__:Testing haystack size: 15, resulting tokens: 491/500
+INFO:__main__:Final optimal haystack size (number of haystack): 15
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|##########| 1/1 [00:00<00:00, 1800.90it/s]
+INFO:__main__:{'index': 0, 'input': 'Memorize and track the chain(s) of variable assignment hidden in the following text.\n\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nVAR UOK = 12345\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nVAR QBL = VAR UOK \nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nVAR MTN = VAR QBL \nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nVAR EJB = VAR MTN \nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nVAR GMU = VAR EJB \nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nThe grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\nQuestion: Find all variables that are assigned the value 12345 in the text above. Answer: According to the chain(s) of variable assignment in the text above, 5 variables are assigned the value 12345, they are: ', 'outputs': ['UOK', 'QBL', 'MTN', 'EJB', 'GMU'], 'length': 492}
+INFO:__main__:Estimated 37.7 tokens per haystack
+INFO:__main__:Starting binary search with bounds: 10 to 1303
+INFO:__main__:Testing haystack size: 656, resulting tokens: 17057/16384
+INFO:__main__:Testing haystack size: 332, resulting tokens: 8958/16384
+INFO:__main__:Testing haystack size: 494, resulting tokens: 13010/16384
+INFO:__main__:Testing haystack size: 575, resulting tokens: 15034/16384
+INFO:__main__:Testing haystack size: 615, resulting tokens: 16034/16384
+INFO:__main__:Testing haystack size: 635, resulting tokens: 16534/16384
+INFO:__main__:Testing haystack size: 625, resulting tokens: 16285/16384
+INFO:__main__:Testing haystack size: 630, resulting tokens: 16410/16384
+INFO:__main__:Testing haystack size: 627, resulting tokens: 16334/16384
+INFO:__main__:Testing haystack size: 628, resulting tokens: 16359/16384
+INFO:__main__:Testing haystack size: 629, resulting tokens: 16384/16384
+INFO:__main__:Final optimal haystack size (number of haystack): 629
+
+  0%|          | 0/24 [00:00<?, ?it/s]
+ 29%|##9       | 7/24 [00:00<00:00, 57.51it/s]
+ 54%|#####4    | 13/24 [00:00<00:00, 56.55it/s]
+ 83%|########3 | 20/24 [00:00<00:00, 60.42it/s]
+100%|##########| 24/24 [00:00<00:00, 58.27it/s]
+GENERATE final_cwe seed 292101
+INFO:__main__:loaded 8166 wonderwords
+INFO:__main__:loaded 370101 randle words
+INFO:__main__:Estimated 23.3 tokens per haystack
+INFO:__main__:Starting binary search with bounds: 10 to 1404
+INFO:__main__:Testing haystack size: 707, resulting tokens: 17977/16384
+INFO:__main__:Testing haystack size: 358, resulting tokens: 10241/16384
+INFO:__main__:Testing haystack size: 532, resulting tokens: 14052/16384
+INFO:__main__:Testing haystack size: 619, resulting tokens: 16014/16384
+INFO:__main__:Testing haystack size: 663, resulting tokens: 16911/16384
+INFO:__main__:Testing haystack size: 641, resulting tokens: 16621/16384
+INFO:__main__:Testing haystack size: 630, resulting tokens: 16215/16384
+INFO:__main__:Testing haystack size: 635, resulting tokens: 16332/16384
+INFO:__main__:Testing haystack size: 638, resulting tokens: 16462/16384
+INFO:__main__:Testing haystack size: 636, resulting tokens: 16337/16384
+INFO:__main__:Testing haystack size: 637, resulting tokens: 16446/16384
+INFO:__main__:Final optimal haystack size (number of haystack): 636
+
+  0%|          | 0/24 [00:00<?, ?it/s]
+ 25%|##5       | 6/24 [00:00<00:00, 58.36it/s]
+ 50%|#####     | 12/24 [00:00<00:00, 58.62it/s]
+ 75%|#######5  | 18/24 [00:00<00:00, 56.12it/s]
+100%|##########| 24/24 [00:00<00:00, 52.59it/s]
+100%|##########| 24/24 [00:00<00:00, 54.25it/s]
+GENERATE final_niah_distractor seed 292201
+INFO:__main__:Estimated 36.0 tokens per haystack
+INFO:__main__:Starting binary search with bounds: 25 to 1366
+INFO:__main__:Testing haystack size: 695, resulting tokens: 16308/16384
+INFO:__main__:Testing haystack size: 1031, resulting tokens: 23960/16384
+INFO:__main__:Testing haystack size: 863, resulting tokens: 20095/16384
+INFO:__main__:Testing haystack size: 779, resulting tokens: 18210/16384
+INFO:__main__:Testing haystack size: 737, resulting tokens: 17288/16384
+INFO:__main__:Testing haystack size: 716, resulting tokens: 16790/16384
+INFO:__main__:Testing haystack size: 705, resulting tokens: 16499/16384
+INFO:__main__:Testing haystack size: 700, resulting tokens: 16440/16384
+INFO:__main__:Testing haystack size: 697, resulting tokens: 16305/16384
+INFO:__main__:Testing haystack size: 698, resulting tokens: 16417/16384
+INFO:__main__:Final optimal haystack size (number of haystack): 697
+
+  0%|          | 0/24 [00:00<?, ?it/s]
+ 21%|##        | 5/24 [00:00<00:00, 47.40it/s]
+ 46%|####5     | 11/24 [00:00<00:00, 52.11it/s]
+ 71%|#######   | 17/24 [00:00<00:00, 49.22it/s]
+ 96%|#########5| 23/24 [00:00<00:00, 51.97it/s]
+100%|##########| 24/24 [00:00<00:00, 51.58it/s]
+GENERATE final_niah_multikey seed 292301
+INFO:__main__:Estimated 32.0 tokens per haystack
+INFO:__main__:Starting binary search with bounds: 25 to 1534
+INFO:__main__:Testing haystack size: 779, resulting tokens: 19773/16384
+INFO:__main__:Testing haystack size: 401, resulting tokens: 10344/16384
+INFO:__main__:Testing haystack size: 590, resulting tokens: 15063/16384
+INFO:__main__:Testing haystack size: 684, resulting tokens: 17401/16384
+INFO:__main__:Testing haystack size: 637, resulting tokens: 16235/16384
+INFO:__main__:Testing haystack size: 660, resulting tokens: 16813/16384
+INFO:__main__:Testing haystack size: 648, resulting tokens: 16522/16384
+INFO:__main__:Testing haystack size: 642, resulting tokens: 16360/16384
+INFO:__main__:Testing haystack size: 645, resulting tokens: 16438/16384
+INFO:__main__:Testing haystack size: 643, resulting tokens: 16400/16384
+INFO:__main__:Final optimal haystack size (number of haystack): 642
+
+  0%|          | 0/24 [00:00<?, ?it/s]
+ 21%|##        | 5/24 [00:00<00:00, 43.92it/s]
+ 42%|####1     | 10/24 [00:00<00:00, 45.12it/s]
+ 62%|######2   | 15/24 [00:00<00:00, 44.64it/s]
+ 83%|########3 | 20/24 [00:00<00:00, 42.74it/s]
+100%|##########| 24/24 [00:00<00:00, 44.77it/s]
+LOCKED 100 prior_rows 460 overlap 0

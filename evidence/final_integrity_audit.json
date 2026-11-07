@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "rows": 480,
+  "paired_prompts": 96,
+  "tasks": 4,
+  "prompts_per_task": 24,
+  "source_files_verified": 13,
+  "fallbacks": 0,
+  "routed_layer_calls": 279688,
+  "total_measured_inference_hours": 15.542229347111292,
+  "input_tokens_min": 15962,
+  "input_tokens_max": 16354,
+  "results_sha256": "a9379597f0ef531a22e180d7d0468b547af173dcf131b127d7d34f3c81e631ba",
+  "summary_sha256": "a6115611aac07964babc0eb70ae7155f70438678266a874e01d3758a5b63b36c",
+  "modes": {
+    "dense": {
+      "n": 96,
+      "all_recovered_count": 77,
+      "mean_prefill_s": 3.708234871874462,
+      "mean_decode_s": 2.0933318927097466,
+      "mean_generated_tokens": 60.135416666666664,
+      "peak_allocated_gib": 9.343052864074707,
+      "peak_reserved_gib": 12.8046875,
+      "ended_on_eos": 49
+    },
+    "init_090": {
+      "n": 96,
+      "all_recovered_count": 39,
+      "mean_prefill_s": 128.11807855520897,
+      "mean_decode_s": 14.0097575229233,
+      "mean_generated_tokens": 58.614583333333336,
+      "peak_allocated_gib": 9.326129913330078,
+      "peak_reserved_gib": 11.693359375,
+      "ended_on_eos": 49
+    },
+    "trained_090": {
+      "n": 96,
+      "all_recovered_count": 69,
+      "mean_prefill_s": 127.3378940479168,
+      "mean_decode_s": 14.838431257290003,
+      "mean_generated_tokens": 62.104166666666664,
+      "peak_allocated_gib": 9.325756549835205,
+      "peak_reserved_gib": 11.6953125,
+      "ended_on_eos": 45
+    },
+    "init_095": {
+      "n": 96,
+      "all_recovered_count": 66,
+      "mean_prefill_s": 132.99932602187474,
+      "mean_decode_s": 13.820322464580613,
+      "mean_generated_tokens": 57.385416666666664,
+      "peak_allocated_gib": 9.327592849731445,
+      "peak_reserved_gib": 11.6953125,
+      "ended_on_eos": 52
+    },
+    "trained_095": {
+      "n": 96,
+      "all_recovered_count": 75,
+      "mean_prefill_s": 131.96244136250064,
+      "mean_decode_s": 13.945782519794156,
+      "mean_generated_tokens": 58.072916666666664,
+      "peak_allocated_gib": 9.327343463897705,
+      "peak_reserved_gib": 11.6953125,
+      "ended_on_eos": 50
+    }
+  },
+  "checks": "Frozen source/snapshot/protocol/manifest/checkpoint hashes; unique complete branches; per-case provenance; recomputed scores; exact causal availability; selected bounds and ratios; 8-layer call counts; zero fallback; aggregate summary recomputed."
+}

@@ -1,0 +1,321 @@
+{
+  "split": "dev",
+  "n": 4,
+  "configurations": {
+    "dense": {
+      "score": 0.9166666666666666,
+      "all_recovered": 0.75,
+      "prefill_key_share": 1.0,
+      "decode_key_share": 1.0,
+      "intervals": {
+        "score": [
+          0.9166666666666666,
+          0.9166666666666666
+        ],
+        "all_recovered": [
+          0.75,
+          0.75
+        ],
+        "prefill_key_share": [
+          1.0,
+          1.0
+        ],
+        "decode_key_share": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "init_090": {
+      "score": 0.9166666666666666,
+      "all_recovered": 0.75,
+      "prefill_key_share": 0.10539102945507561,
+      "decode_key_share": 0.02501490557421947,
+      "intervals": {
+        "score": [
+          0.9166666666666666,
+          0.9166666666666666
+        ],
+        "all_recovered": [
+          0.75,
+          0.75
+        ],
+        "prefill_key_share": [
+          0.10539102945507561,
+          0.10539102945507561
+        ],
+        "decode_key_share": [
+          0.02501490557421947,
+          0.02501490557421947
+        ]
+      }
+    },
+    "trained_090": {
+      "score": 0.9166666666666666,
+      "all_recovered": 0.75,
+      "prefill_key_share": 0.07943402229877827,
+      "decode_key_share": 0.021452910187803792,
+      "intervals": {
+        "score": [
+          0.9166666666666666,
+          0.9166666666666666
+        ],
+        "all_recovered": [
+          0.75,
+          0.75
+        ],
+        "prefill_key_share": [
+          0.07943402229877827,
+          0.07943402229877827
+        ],
+        "decode_key_share": [
+          0.021452910187803792,
+          0.021452910187803792
+        ]
+      }
+    },
+    "init_095": {
+      "score": 0.9166666666666666,
+      "all_recovered": 0.75,
+      "prefill_key_share": 0.21898024143467967,
+      "decode_key_share": 0.05985279739769944,
+      "intervals": {
+        "score": [
+          0.9166666666666666,
+          0.9166666666666666
+        ],
+        "all_recovered": [
+          0.75,
+          0.75
+        ],
+        "prefill_key_share": [
+          0.21898024143467967,
+          0.21898024143467967
+        ],
+        "decode_key_share": [
+          0.05985279739769944,
+          0.05985279739769944
+        ]
+      }
+    },
+    "trained_095": {
+      "score": 0.9166666666666666,
+      "all_recovered": 0.75,
+      "prefill_key_share": 0.17001829606866725,
+      "decode_key_share": 0.046612486412227476,
+      "intervals": {
+        "score": [
+          0.9166666666666666,
+          0.9166666666666666
+        ],
+        "all_recovered": [
+          0.75,
+          0.75
+        ],
+        "prefill_key_share": [
+          0.17001829606866725,
+          0.17001829606866725
+        ],
+        "decode_key_share": [
+          0.046612486412227476,
+          0.046612486412227476
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "vt": {
+      "n": 1,
+      "modes": {
+        "dense": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 1.0,
+          "decode_key_share": 1.0
+        },
+        "init_090": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 0.0970107200440005,
+          "decode_key_share": 0.005964454083554795
+        },
+        "trained_090": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 0.06986925156216814,
+          "decode_key_share": 0.0042448147356202465
+        },
+        "init_095": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 0.20486627377632266,
+          "decode_key_share": 0.01783220565924387
+        },
+        "trained_095": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 0.15409489096724036,
+          "decode_key_share": 0.010469168423089063
+        }
+      }
+    },
+    "cwe": {
+      "n": 1,
+      "modes": {
+        "dense": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 1.0,
+          "decode_key_share": 1.0
+        },
+        "init_090": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 0.11604407001894254,
+          "decode_key_share": 0.03781673714592563
+        },
+        "trained_090": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 0.08925324260863417,
+          "decode_key_share": 0.029732001326972127
+        },
+        "init_095": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 0.23763362775957886,
+          "decode_key_share": 0.08864257721738592
+        },
+        "trained_095": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 0.18769497921139683,
+          "decode_key_share": 0.06974034008178692
+        }
+      }
+    },
+    "niah_distractor": {
+      "n": 1,
+      "modes": {
+        "dense": {
+          "score": 0.6666666666666666,
+          "all_recovered": 0,
+          "prefill_key_share": 1.0,
+          "decode_key_share": 1.0
+        },
+        "init_090": {
+          "score": 0.6666666666666666,
+          "all_recovered": 0,
+          "prefill_key_share": 0.11065795678291813,
+          "decode_key_share": 0.04585342467933416
+        },
+        "trained_090": {
+          "score": 0.6666666666666666,
+          "all_recovered": 0,
+          "prefill_key_share": 0.08670768235268342,
+          "decode_key_share": 0.03502826713135364
+        },
+        "init_095": {
+          "score": 0.6666666666666666,
+          "all_recovered": 0,
+          "prefill_key_share": 0.22404959513020223,
+          "decode_key_share": 0.10946265670614036
+        },
+        "trained_095": {
+          "score": 0.6666666666666666,
+          "all_recovered": 0,
+          "prefill_key_share": 0.17831296381610579,
+          "decode_key_share": 0.08507474372958444
+        }
+      }
+    },
+    "niah_multikey": {
+      "n": 1,
+      "modes": {
+        "dense": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 1.0,
+          "decode_key_share": 1.0
+        },
+        "init_090": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 0.09850837495967332,
+          "decode_key_share": 0.004521837830179622
+        },
+        "trained_090": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 0.07269479318967904,
+          "decode_key_share": 0.004083959591162472
+        },
+        "init_095": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 0.210249337123048,
+          "decode_key_share": 0.011132129638173746
+        },
+        "trained_095": {
+          "score": 1.0,
+          "all_recovered": 1,
+          "prefill_key_share": 0.16106502689753122,
+          "decode_key_share": 0.009013994564077614
+        }
+      }
+    }
+  },
+  "paired": {
+    "090": {
+      "better_tied_worse": [
+        0,
+        4,
+        0
+      ],
+      "mean_score_difference": 0.0,
+      "intervals": {
+        "score": [
+          0.0,
+          0.0
+        ],
+        "decode_key_share": [
+          -0.003561995386415679,
+          -0.003561995386415679
+        ],
+        "prefill_key_share": [
+          -0.02595700715629734,
+          -0.02595700715629734
+        ]
+      },
+      "decode_key_share_difference": -0.003561995386415679,
+      "prefill_key_share_difference": -0.02595700715629734
+    },
+    "095": {
+      "better_tied_worse": [
+        0,
+        4,
+        0
+      ],
+      "mean_score_difference": 0.0,
+      "intervals": {
+        "score": [
+          0.0,
+          0.0
+        ],
+        "decode_key_share": [
+          -0.013240310985471966,
+          -0.013240310985471966
+        ],
+        "prefill_key_share": [
+          -0.04896194536601242,
+          -0.04896194536601242
+        ]
+      },
+      "decode_key_share_difference": -0.013240310985471966,
+      "prefill_key_share_difference": -0.04896194536601242
+    }
+  },
+  "bootstrap": "10000 prompt-level paired resamples stratified by task; 95% percentile; seed 4721; not heads or expected items",
+  "key_share": "sum selected / sum causally available over head-query evaluations, separately by phase",
+  "qualification": "estimated threshold p is not true dense attention mass; distinct model trajectories may select different keys"
+}

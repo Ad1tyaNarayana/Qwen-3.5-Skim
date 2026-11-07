@@ -1,0 +1,19 @@
+{
+  "stage": "controlled R4 vs R16; predeclared before training",
+  "backbone": "Qwen3.5-4B-Base revision 1001bb4d826a52d1f399e183466143f4da7b741b; frozen BF16",
+  "geometry": "C4 L6 maximum, R4 or R16 shared per KV head across levels; sink and current chunk exact",
+  "data": "same 64 distinct 16K PG19 books + 64 4K WikiText articles, two epochs, no document packing; 64 identical sampled query positions per doc/layer across R",
+  "optimizer": "same independent per-layer AdamW beta(.9,.95), eps 1e-15, decay 0, clip1, LR peak .032; 20 warmup updates, final 20% linear to 1%",
+  "initialization": "same seeded normal std .2, R4 references are first four of R16 for each KV head/layer",
+  "actual_training_scale": "1,310,720 unique input tokens, 2,621,440 teacher-token exposures per router, 256 updates per layer; not paper 32K/1B training",
+  "validation": "same eight disjoint held-out documents; separate natural test untouched",
+  "storage": "experiment checkpoints, logs and temporary files on W; C: guarded at 24 GiB due OS pagefile; base model and existing input data remain on C",
+  "source_sha256": {
+    "train_zha_l6_controlled.py": "cf9f362e65242f90e5851675b1951fd8943f478a52727bd793fd4224ef87bac3",
+    "zha_l6_controlled.py": "22ce51ec2e8109cc0bbe85e8a86b5fcf701712def4ad7564fd905fcb04896273",
+    "zha_l6_reference.py": "943cf2960f53597d6229fe97f16301726d978105dd5a4c51c774c4657f222085",
+    "r16_multilevel_loss.py": "e808fac9f4b97ebb4f4cae31c8645cd483ed174888e1731ce399881aa26c226f",
+    "results/plan_boundary/dataset_manifest.json": "a0a9c2da99ca8833e9c6348cdec25bf33dea3df11c2c36c818b3bc190c215868"
+  },
+  "limitations": "paper initialization and sampled-query recipe unspecified; batch1 and short data differ; quality evaluation remains separate"
+}

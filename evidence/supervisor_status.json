@@ -1,0 +1,10 @@
+{
+  "stage": "completed",
+  "utc": "2026-11-05T11:16:44Z",
+  "c_free": 29674217472,
+  "w_free": 1149592870912,
+  "final_summary": "W:\\Codex-Qwen-Final-20261104\\final_summary.json",
+  "figure": "W:\\Codex-Qwen-Final-20261104\\quality_vs_decode_key_share.png",
+  "dev_saved_rows": 20,
+  "final_saved_rows": 480
+}

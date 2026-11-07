@@ -1,0 +1,9 @@
+{
+  "problem": "boolean causal prefill masks were routed to dense fallback",
+  "preserved_prior_rows": 38,
+  "prior_sha256": "b49bd61a87c55dc6673dbfe3f77a20ed51bb93568cc4c5a28ea22eae40de9b83",
+  "reused_dense_rows": 16,
+  "discarded_from_gate_sparse_rows": 22,
+  "reason": "sparse prefill coverage was incomplete; rerun with exact per-block coverage checks",
+  "selection": "no model or test seed tuning"
+}

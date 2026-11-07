@@ -1,0 +1,223 @@
+
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/723 [00:00<01:37,  7.38it/s]
+Loading weights:   1%|1         | 8/723 [00:00<00:20, 34.42it/s]
+Loading weights:   3%|2         | 21/723 [00:00<00:13, 51.41it/s]
+Loading weights:   5%|5         | 38/723 [00:00<00:08, 83.08it/s]
+Loading weights:   8%|8         | 60/723 [00:00<00:05, 121.99it/s]
+Loading weights:  11%|#         | 77/723 [00:00<00:04, 130.74it/s]
+Loading weights:  13%|#2        | 93/723 [00:00<00:04, 132.88it/s]
+Loading weights:  16%|#5        | 114/723 [00:01<00:03, 153.28it/s]
+Loading weights:  19%|#9        | 138/723 [00:01<00:03, 177.89it/s]
+Loading weights:  22%|##1       | 157/723 [00:01<00:03, 170.87it/s]
+Loading weights:  25%|##4       | 180/723 [00:01<00:03, 169.21it/s]
+Loading weights:  27%|##7       | 198/723 [00:01<00:03, 168.58it/s]
+Loading weights:  30%|###       | 220/723 [00:01<00:02, 172.33it/s]
+Loading weights:  34%|###3      | 245/723 [00:01<00:02, 192.44it/s]
+Loading weights:  37%|###6      | 265/723 [00:01<00:02, 187.16it/s]
+Loading weights:  40%|###9      | 286/723 [00:01<00:02, 180.15it/s]
+Loading weights:  42%|####2     | 305/723 [00:02<00:02, 176.16it/s]
+Loading weights:  45%|####5     | 327/723 [00:02<00:02, 183.41it/s]
+Loading weights:  49%|####8     | 352/723 [00:02<00:01, 197.91it/s]
+Loading weights:  51%|#####1    | 372/723 [00:02<00:01, 181.68it/s]
+Loading weights:  54%|#####4    | 393/723 [00:02<00:01, 169.82it/s]
+Loading weights:  57%|#####6    | 412/723 [00:02<00:01, 158.82it/s]
+Loading weights:  72%|#######2  | 521/723 [00:02<00:00, 383.41it/s]
+Loading weights:  92%|#########1| 662/723 [00:02<00:00, 643.90it/s]
+Loading weights: 100%|##########| 723/723 [00:02<00:00, 244.94it/s]
+CASE_START dev vt 0 dense tokens 16354
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+PREFILL dev vt 0 dense 4096 16354 C_free 32345612288
+PREFILL dev vt 0 dense 8192 16354 C_free 32345612288
+PREFILL dev vt 0 dense 12288 16354 C_free 32345612288
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+DECODE dev vt 0 dense 20
+CASE_COMPLETE {"split": "dev", "task": "vt", "index": 0, "mode": "dense", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 1.0, "decode_key_share": 1.0, "prefill_s": 16.62799360000099, "decode_s_total": 1.0916824999985693, "peak_allocated_gib": 9.343052864074707}
+CASE_START dev vt 0 init_090 tokens 16354
+PREFILL dev vt 0 init_090 4096 16354 C_free 32345018368
+PREFILL dev vt 0 init_090 8192 16354 C_free 32344989696
+PREFILL dev vt 0 init_090 12288 16354 C_free 32345010176
+DECODE dev vt 0 init_090 20
+CASE_COMPLETE {"split": "dev", "task": "vt", "index": 0, "mode": "init_090", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 0.0970107200440005, "decode_key_share": 0.005964454083554795, "prefill_s": 130.31406659999993, "decode_s_total": 7.458847399997467, "peak_allocated_gib": 9.324388980865479}
+CASE_START dev vt 0 trained_090 tokens 16354
+PREFILL dev vt 0 trained_090 4096 16354 C_free 32343633920
+PREFILL dev vt 0 trained_090 8192 16354 C_free 32342405120
+PREFILL dev vt 0 trained_090 12288 16354 C_free 32342405120
+DECODE dev vt 0 trained_090 20
+CASE_COMPLETE {"split": "dev", "task": "vt", "index": 0, "mode": "trained_090", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 0.06986925156216814, "decode_key_share": 0.0042448147356202465, "prefill_s": 128.28440389999923, "decode_s_total": 7.514380799997525, "peak_allocated_gib": 9.324387550354004}
+CASE_START dev vt 0 init_095 tokens 16354
+PREFILL dev vt 0 init_095 4096 16354 C_free 32341598208
+PREFILL dev vt 0 init_095 8192 16354 C_free 32341848064
+PREFILL dev vt 0 init_095 12288 16354 C_free 32341639168
+DECODE dev vt 0 init_095 20
+CASE_COMPLETE {"split": "dev", "task": "vt", "index": 0, "mode": "init_095", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 0.20486627377632266, "decode_key_share": 0.01783220565924387, "prefill_s": 134.93511399999988, "decode_s_total": 7.17419300000256, "peak_allocated_gib": 9.32439136505127}
+CASE_START dev vt 0 trained_095 tokens 16354
+PREFILL dev vt 0 trained_095 4096 16354 C_free 32341696512
+
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]
+Loading weights:   1%|1         | 9/723 [00:00<00:08, 85.73it/s]
+Loading weights:   5%|4         | 36/723 [00:00<00:04, 153.55it/s]
+Loading weights:   8%|8         | 60/723 [00:00<00:03, 179.78it/s]
+Loading weights:  11%|#         | 78/723 [00:00<00:03, 175.68it/s]
+Loading weights:  13%|#3        | 96/723 [00:00<00:03, 167.05it/s]
+Loading weights:  16%|#6        | 118/723 [00:00<00:03, 182.39it/s]
+Loading weights:  19%|#9        | 140/723 [00:00<00:03, 170.62it/s]
+Loading weights:  23%|##3       | 167/723 [00:00<00:03, 178.88it/s]
+Loading weights:  27%|##6       | 193/723 [00:01<00:02, 198.34it/s]
+Loading weights:  30%|##9       | 214/723 [00:01<00:02, 188.22it/s]
+Loading weights:  32%|###2      | 234/723 [00:01<00:02, 179.02it/s]
+Loading weights:  35%|###4      | 253/723 [00:01<00:02, 174.98it/s]
+Loading weights:  38%|###8      | 278/723 [00:01<00:02, 194.17it/s]
+Loading weights:  41%|####1     | 298/723 [00:01<00:02, 176.69it/s]
+Loading weights:  45%|####4     | 325/723 [00:01<00:02, 183.59it/s]
+Loading weights:  49%|####8     | 351/723 [00:01<00:01, 200.52it/s]
+Loading weights:  51%|#####1    | 372/723 [00:02<00:01, 192.57it/s]
+Loading weights:  54%|#####4    | 392/723 [00:02<00:01, 180.81it/s]
+Loading weights:  57%|#####6    | 412/723 [00:02<00:01, 181.16it/s]
+Loading weights:  66%|######5   | 476/723 [00:02<00:00, 302.41it/s]
+Loading weights:  85%|########5 | 616/723 [00:02<00:00, 601.28it/s]
+Loading weights: 100%|##########| 723/723 [00:02<00:00, 280.88it/s]
+CASE_START dev vt 0 trained_095 tokens 16354
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+PREFILL dev vt 0 trained_095 4096 16354 C_free 32356884480
+PREFILL dev vt 0 trained_095 8192 16354 C_free 32356978688
+PREFILL dev vt 0 trained_095 12288 16354 C_free 32357019648
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+DECODE dev vt 0 trained_095 20
+CASE_COMPLETE {"split": "dev", "task": "vt", "index": 0, "mode": "trained_095", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 0.15409489096724036, "decode_key_share": 0.010469168423089063, "prefill_s": 143.00737310000113, "decode_s_total": 7.231418399996983, "peak_allocated_gib": 9.324390411376953}
+CASE_START dev cwe 0 dense tokens 16080
+PREFILL dev cwe 0 dense 4096 16080 C_free 32356085760
+PREFILL dev cwe 0 dense 8192 16080 C_free 32356085760
+PREFILL dev cwe 0 dense 12288 16080 C_free 32356085760
+DECODE dev cwe 0 dense 20
+DECODE dev cwe 0 dense 40
+DECODE dev cwe 0 dense 60
+DECODE dev cwe 0 dense 80
+DECODE dev cwe 0 dense 100
+DECODE dev cwe 0 dense 120
+CASE_COMPLETE {"split": "dev", "task": "cwe", "index": 0, "mode": "dense", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 1.0, "decode_key_share": 1.0, "prefill_s": 3.972480899999937, "decode_s_total": 4.284859000015786, "peak_allocated_gib": 9.321284294128418}
+CASE_START dev cwe 0 init_090 tokens 16080
+PREFILL dev cwe 0 init_090 4096 16080 C_free 32351526912
+PREFILL dev cwe 0 init_090 8192 16080 C_free 32350998528
+PREFILL dev cwe 0 init_090 12288 16080 C_free 32351252480
+DECODE dev cwe 0 init_090 20
+DECODE dev cwe 0 init_090 40
+DECODE dev cwe 0 init_090 60
+DECODE dev cwe 0 init_090 80
+DECODE dev cwe 0 init_090 100
+DECODE dev cwe 0 init_090 120
+CASE_COMPLETE {"split": "dev", "task": "cwe", "index": 0, "mode": "init_090", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 0.11604407001894254, "decode_key_share": 0.03781673714592563, "prefill_s": 125.64428039999984, "decode_s_total": 29.36526010000125, "peak_allocated_gib": 9.308815956115723}
+CASE_START dev cwe 0 trained_090 tokens 16080
+PREFILL dev cwe 0 trained_090 4096 16080 C_free 32349704192
+PREFILL dev cwe 0 trained_090 8192 16080 C_free 32349708288
+PREFILL dev cwe 0 trained_090 12288 16080 C_free 32349704192
+DECODE dev cwe 0 trained_090 20
+DECODE dev cwe 0 trained_090 40
+DECODE dev cwe 0 trained_090 60
+DECODE dev cwe 0 trained_090 80
+DECODE dev cwe 0 trained_090 100
+DECODE dev cwe 0 trained_090 120
+CASE_COMPLETE {"split": "dev", "task": "cwe", "index": 0, "mode": "trained_090", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 0.08925324260863417, "decode_key_share": 0.029732001326972127, "prefill_s": 123.42420500000117, "decode_s_total": 29.3178996000006, "peak_allocated_gib": 9.308573722839355}
+CASE_START dev cwe 0 init_095 tokens 16080
+PREFILL dev cwe 0 init_095 4096 16080 C_free 32349679616
+PREFILL dev cwe 0 init_095 8192 16080 C_free 32349646848
+PREFILL dev cwe 0 init_095 12288 16080 C_free 32349655040
+DECODE dev cwe 0 init_095 20
+DECODE dev cwe 0 init_095 40
+DECODE dev cwe 0 init_095 60
+DECODE dev cwe 0 init_095 80
+DECODE dev cwe 0 init_095 100
+DECODE dev cwe 0 init_095 120
+CASE_COMPLETE {"split": "dev", "task": "cwe", "index": 0, "mode": "init_095", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 0.23763362775957886, "decode_key_share": 0.08864257721738592, "prefill_s": 131.45193329999893, "decode_s_total": 28.904556199997387, "peak_allocated_gib": 9.310121536254883}
+CASE_START dev cwe 0 trained_095 tokens 16080
+PREFILL dev cwe 0 trained_095 4096 16080 C_free 32349614080
+PREFILL dev cwe 0 trained_095 8192 16080 C_free 32349544448
+PREFILL dev cwe 0 trained_095 12288 16080 C_free 32349356032
+DECODE dev cwe 0 trained_095 20
+DECODE dev cwe 0 trained_095 40
+DECODE dev cwe 0 trained_095 60
+DECODE dev cwe 0 trained_095 80
+DECODE dev cwe 0 trained_095 100
+DECODE dev cwe 0 trained_095 120
+CASE_COMPLETE {"split": "dev", "task": "cwe", "index": 0, "mode": "trained_095", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 0.18769497921139683, "decode_key_share": 0.06974034008178692, "prefill_s": 128.26816320000034, "decode_s_total": 28.353401299995312, "peak_allocated_gib": 9.30980110168457}
+CASE_START dev niah_distractor 0 dense tokens 15700
+PREFILL dev niah_distractor 0 dense 4096 15700 C_free 32349216768
+PREFILL dev niah_distractor 0 dense 8192 15700 C_free 32349216768
+PREFILL dev niah_distractor 0 dense 12288 15700 C_free 32349216768
+DECODE dev niah_distractor 0 dense 20
+CASE_COMPLETE {"split": "dev", "task": "niah_distractor", "index": 0, "mode": "dense", "score": 0.6666666666666666, "all_expected_recovered": false, "prefill_key_share": 1.0, "decode_key_share": 1.0, "prefill_s": 3.4677532999994582, "decode_s_total": 0.7502067000023089, "peak_allocated_gib": 9.29779577255249}
+CASE_START dev niah_distractor 0 init_090 tokens 15700
+PREFILL dev niah_distractor 0 init_090 4096 15700 C_free 32349220864
+PREFILL dev niah_distractor 0 init_090 8192 15700 C_free 32349220864
+PREFILL dev niah_distractor 0 init_090 12288 15700 C_free 32349052928
+DECODE dev niah_distractor 0 init_090 20
+CASE_COMPLETE {"split": "dev", "task": "niah_distractor", "index": 0, "mode": "init_090", "score": 0.6666666666666666, "all_expected_recovered": false, "prefill_key_share": 0.11065795678291813, "decode_key_share": 0.04585342467933416, "prefill_s": 120.67529529999956, "decode_s_total": 4.680863900008262, "peak_allocated_gib": 9.29128885269165}
+CASE_START dev niah_distractor 0 trained_090 tokens 15700
+PREFILL dev niah_distractor 0 trained_090 4096 15700 C_free 32349052928
+PREFILL dev niah_distractor 0 trained_090 8192 15700 C_free 32349052928
+PREFILL dev niah_distractor 0 trained_090 12288 15700 C_free 32349048832
+DECODE dev niah_distractor 0 trained_090 20
+CASE_COMPLETE {"split": "dev", "task": "niah_distractor", "index": 0, "mode": "trained_090", "score": 0.6666666666666666, "all_expected_recovered": false, "prefill_key_share": 0.08670768235268342, "decode_key_share": 0.03502826713135364, "prefill_s": 119.96457139999984, "decode_s_total": 4.679774900005214, "peak_allocated_gib": 9.291259288787842}
+CASE_START dev niah_distractor 0 init_095 tokens 15700
+PREFILL dev niah_distractor 0 init_095 4096 15700 C_free 32349048832
+PREFILL dev niah_distractor 0 init_095 8192 15700 C_free 32349048832
+PREFILL dev niah_distractor 0 init_095 12288 15700 C_free 32349048832
+DECODE dev niah_distractor 0 init_095 20
+CASE_COMPLETE {"split": "dev", "task": "niah_distractor", "index": 0, "mode": "init_095", "score": 0.6666666666666666, "all_expected_recovered": false, "prefill_key_share": 0.22404959513020223, "decode_key_share": 0.10946265670614036, "prefill_s": 126.04063549999955, "decode_s_total": 5.197766899998896, "peak_allocated_gib": 9.291534900665283}
+CASE_START dev niah_distractor 0 trained_095 tokens 15700
+PREFILL dev niah_distractor 0 trained_095 4096 15700 C_free 32349040640
+PREFILL dev niah_distractor 0 trained_095 8192 15700 C_free 32349597696
+PREFILL dev niah_distractor 0 trained_095 12288 15700 C_free 32349954048
+DECODE dev niah_distractor 0 trained_095 20
+CASE_COMPLETE {"split": "dev", "task": "niah_distractor", "index": 0, "mode": "trained_095", "score": 0.6666666666666666, "all_expected_recovered": false, "prefill_key_share": 0.17831296381610579, "decode_key_share": 0.08507474372958444, "prefill_s": 124.99302330000137, "decode_s_total": 5.192775299992718, "peak_allocated_gib": 9.291463375091553}
+CASE_START dev niah_multikey 0 dense tokens 16223
+PREFILL dev niah_multikey 0 dense 4096 16223 C_free 32349954048
+PREFILL dev niah_multikey 0 dense 8192 16223 C_free 32349954048
+PREFILL dev niah_multikey 0 dense 12288 16223 C_free 32349954048
+DECODE dev niah_multikey 0 dense 20
+DECODE dev niah_multikey 0 dense 40
+DECODE dev niah_multikey 0 dense 60
+CASE_COMPLETE {"split": "dev", "task": "niah_multikey", "index": 0, "mode": "dense", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 1.0, "decode_key_share": 1.0, "prefill_s": 3.6063962999996875, "decode_s_total": 2.1821669999935693, "peak_allocated_gib": 9.323323726654053}
+CASE_START dev niah_multikey 0 init_090 tokens 16223
+PREFILL dev niah_multikey 0 init_090 4096 16223 C_free 32349954048
+PREFILL dev niah_multikey 0 init_090 8192 16223 C_free 32349954048
+PREFILL dev niah_multikey 0 init_090 12288 16223 C_free 32349945856
+DECODE dev niah_multikey 0 init_090 20
+DECODE dev niah_multikey 0 init_090 40
+DECODE dev niah_multikey 0 init_090 60
+CASE_COMPLETE {"split": "dev", "task": "niah_multikey", "index": 0, "mode": "init_090", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 0.09850837495967332, "decode_key_share": 0.004521837830179622, "prefill_s": 124.30784099999983, "decode_s_total": 15.523027500013995, "peak_allocated_gib": 9.315683364868164}
+CASE_START dev niah_multikey 0 trained_090 tokens 16223
+PREFILL dev niah_multikey 0 trained_090 4096 16223 C_free 32349827072
+PREFILL dev niah_multikey 0 trained_090 8192 16223 C_free 32349827072
+PREFILL dev niah_multikey 0 trained_090 12288 16223 C_free 32349827072
+DECODE dev niah_multikey 0 trained_090 20
+DECODE dev niah_multikey 0 trained_090 40
+CASE_COMPLETE {"split": "dev", "task": "niah_multikey", "index": 0, "mode": "trained_090", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 0.07269479318967904, "decode_key_share": 0.004083959591162472, "prefill_s": 122.74159370000052, "decode_s_total": 9.838177899986476, "peak_allocated_gib": 9.315524578094482}
+CASE_START dev niah_multikey 0 init_095 tokens 16223
+PREFILL dev niah_multikey 0 init_095 4096 16223 C_free 32349827072
+PREFILL dev niah_multikey 0 init_095 8192 16223 C_free 32349827072
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights:   1%|          | 7/723 [00:00<00:10, 67.71it/s]Loading weights:   5%|4         | 33/723 [00:00<00:04, 166.32it/s]Loading weights:   7%|6         | 50/723 [00:00<00:04, 167.86it/s]Loading weights:  10%|#         | 73/723 [00:00<00:03, 175.16it/s]Loading weights:  13%|#2        | 93/723 [00:00<00:03, 164.09it/s]Loading weights:  16%|#6        | 117/723 [00:00<00:03, 185.40it/s]Loading weights:  19%|#9        | 140/723 [00:00<00:02, 196.48it/s]Loading weights:  22%|##2       | 160/723 [00:00<00:03, 180.46it/s]Loading weights:  25%|##5       | 181/723 [00:01<00:03, 177.20it/s]Loading weights:  28%|##7       | 199/723 [00:01<00:03, 170.73it/s]Loading weights:  32%|###1      | 229/723 [00:01<00:02, 197.34it/s]Loading weights:  34%|###4      | 249/723 [00:01<00:02, 189.10it/s]Loading weights:  37%|###7      | 269/723 [00:01<00:02, 174.75it/s]Loading weights:  41%|####      | 295/723 [00:01<00:02, 182.93it/s]Loading weights:  44%|####3     | 318/723 [00:01<00:02, 191.77it/s]Loading weights:  47%|####7     | 341/723 [00:01<00:01, 192.08it/s]Loading weights:  50%|####9     | 361/723 [00:02<00:01, 181.75it/s]Loading weights:  53%|#####3    | 385/723 [00:02<00:01, 195.98it/s]Loading weights:  56%|#####6    | 406/723 [00:02<00:01, 190.95it/s]Loading weights:  59%|#####8    | 426/723 [00:02<00:01, 189.36it/s]Loading weights:  78%|#######7  | 561/723 [00:02<00:00, 504.22it/s]Loading weights:  97%|#########7| 702/723 [00:02<00:00, 751.40it/s]Loading weights: 100%|##########| 723/723 [00:02<00:00, 282.43it/s]
+CASE_START dev niah_multikey 0 init_095 tokens 16223
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+PREFILL dev niah_multikey 0 init_095 4096 16223 C_free 32334553088
+PREFILL dev niah_multikey 0 init_095 8192 16223 C_free 32334610432
+PREFILL dev niah_multikey 0 init_095 12288 16223 C_free 32334553088
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+DECODE dev niah_multikey 0 init_095 20
+DECODE dev niah_multikey 0 init_095 40
+DECODE dev niah_multikey 0 init_095 60
+CASE_COMPLETE {"split": "dev", "task": "niah_multikey", "index": 0, "mode": "init_095", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 0.210249337123048, "decode_key_share": 0.011132129638173746, "prefill_s": 137.61089990000255, "decode_s_total": 15.703022000016063, "peak_allocated_gib": 9.317148208618164}
+CASE_START dev niah_multikey 0 trained_095 tokens 16223
+PREFILL dev niah_multikey 0 trained_095 4096 16223 C_free 32334602240
+PREFILL dev niah_multikey 0 trained_095 8192 16223 C_free 32334487552
+PREFILL dev niah_multikey 0 trained_095 12288 16223 C_free 32334487552
+DECODE dev niah_multikey 0 trained_095 20
+DECODE dev niah_multikey 0 trained_095 40
+DECODE dev niah_multikey 0 trained_095 60
+CASE_COMPLETE {"split": "dev", "task": "niah_multikey", "index": 0, "mode": "trained_095", "score": 1.0, "all_expected_recovered": true, "prefill_key_share": 0.16106502689753122, "decode_key_share": 0.009013994564077614, "prefill_s": 129.14948709999953, "decode_s_total": 15.776686300021538, "peak_allocated_gib": 9.317246913909912}

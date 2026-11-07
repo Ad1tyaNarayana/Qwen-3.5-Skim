@@ -1,0 +1,253 @@
+{
+  "status": "post-hoc sensitivity analysis; frozen primary scoring unchanged",
+  "raw_results_sha256": "a9379597f0ef531a22e180d7d0468b547af173dcf131b127d7d34f3c81e631ba",
+  "method": "Lowercase literal expected items bounded by (?<!\\w) and (?!\\w); Unicode word characters.",
+  "bootstrap": "10000 whole-prompt paired draws stratified by task; seed 4721; percentile indices 249/9749; no multiplicity adjustment.",
+  "limitations": "Checks item boundaries only; still gives recall credit anywhere in output, does not penalize extra answers, and is not exact answer matching.",
+  "n": 96,
+  "configurations": {
+    "dense": {
+      "primary_score": 0.9506944444444444,
+      "boundary_score": 0.9506944444444444,
+      "primary_all_recovered": 77,
+      "boundary_all_recovered": 77
+    },
+    "init_090": {
+      "primary_score": 0.8053819444444444,
+      "boundary_score": 0.8043402777777777,
+      "primary_all_recovered": 39,
+      "boundary_all_recovered": 39
+    },
+    "trained_090": {
+      "primary_score": 0.9246527777777778,
+      "boundary_score": 0.9236111111111112,
+      "primary_all_recovered": 69,
+      "boundary_all_recovered": 68
+    },
+    "init_095": {
+      "primary_score": 0.9244791666666666,
+      "boundary_score": 0.9234375,
+      "primary_all_recovered": 66,
+      "boundary_all_recovered": 65
+    },
+    "trained_095": {
+      "primary_score": 0.95,
+      "boundary_score": 0.95,
+      "primary_all_recovered": 75,
+      "boundary_all_recovered": 75
+    }
+  },
+  "tasks": {
+    "vt": {
+      "dense": {
+        "primary_score": 1.0,
+        "boundary_score": 1.0,
+        "primary_all_recovered": 24,
+        "boundary_all_recovered": 24
+      },
+      "init_090": {
+        "primary_score": 0.6583333333333333,
+        "boundary_score": 0.6583333333333333,
+        "primary_all_recovered": 7,
+        "boundary_all_recovered": 7
+      },
+      "trained_090": {
+        "primary_score": 1.0,
+        "boundary_score": 1.0,
+        "primary_all_recovered": 24,
+        "boundary_all_recovered": 24
+      },
+      "init_095": {
+        "primary_score": 0.9583333333333334,
+        "boundary_score": 0.9583333333333334,
+        "primary_all_recovered": 22,
+        "boundary_all_recovered": 22
+      },
+      "trained_095": {
+        "primary_score": 1.0,
+        "boundary_score": 1.0,
+        "primary_all_recovered": 24,
+        "boundary_all_recovered": 24
+      }
+    },
+    "cwe": {
+      "dense": {
+        "primary_score": 0.9416666666666667,
+        "boundary_score": 0.9416666666666667,
+        "primary_all_recovered": 15,
+        "boundary_all_recovered": 15
+      },
+      "init_090": {
+        "primary_score": 0.8583333333333334,
+        "boundary_score": 0.8541666666666666,
+        "primary_all_recovered": 3,
+        "boundary_all_recovered": 3
+      },
+      "trained_090": {
+        "primary_score": 0.8791666666666667,
+        "boundary_score": 0.875,
+        "primary_all_recovered": 9,
+        "boundary_all_recovered": 8
+      },
+      "init_095": {
+        "primary_score": 0.9166666666666667,
+        "boundary_score": 0.9125,
+        "primary_all_recovered": 8,
+        "boundary_all_recovered": 7
+      },
+      "trained_095": {
+        "primary_score": 0.925,
+        "boundary_score": 0.925,
+        "primary_all_recovered": 12,
+        "boundary_all_recovered": 12
+      }
+    },
+    "niah_distractor": {
+      "dense": {
+        "primary_score": 0.861111111111111,
+        "boundary_score": 0.861111111111111,
+        "primary_all_recovered": 14,
+        "boundary_all_recovered": 14
+      },
+      "init_090": {
+        "primary_score": 0.7777777777777778,
+        "boundary_score": 0.7777777777777778,
+        "primary_all_recovered": 10,
+        "boundary_all_recovered": 10
+      },
+      "trained_090": {
+        "primary_score": 0.8194444444444444,
+        "boundary_score": 0.8194444444444444,
+        "primary_all_recovered": 12,
+        "boundary_all_recovered": 12
+      },
+      "init_095": {
+        "primary_score": 0.8333333333333334,
+        "boundary_score": 0.8333333333333334,
+        "primary_all_recovered": 13,
+        "boundary_all_recovered": 13
+      },
+      "trained_095": {
+        "primary_score": 0.875,
+        "boundary_score": 0.875,
+        "primary_all_recovered": 15,
+        "boundary_all_recovered": 15
+      }
+    },
+    "niah_multikey": {
+      "dense": {
+        "primary_score": 1.0,
+        "boundary_score": 1.0,
+        "primary_all_recovered": 24,
+        "boundary_all_recovered": 24
+      },
+      "init_090": {
+        "primary_score": 0.9270833333333334,
+        "boundary_score": 0.9270833333333334,
+        "primary_all_recovered": 19,
+        "boundary_all_recovered": 19
+      },
+      "trained_090": {
+        "primary_score": 1.0,
+        "boundary_score": 1.0,
+        "primary_all_recovered": 24,
+        "boundary_all_recovered": 24
+      },
+      "init_095": {
+        "primary_score": 0.9895833333333334,
+        "boundary_score": 0.9895833333333334,
+        "primary_all_recovered": 23,
+        "boundary_all_recovered": 23
+      },
+      "trained_095": {
+        "primary_score": 1.0,
+        "boundary_score": 1.0,
+        "primary_all_recovered": 24,
+        "boundary_all_recovered": 24
+      }
+    }
+  },
+  "paired": {
+    "090": {
+      "primary": {
+        "mean_difference": 0.11927083333333333,
+        "ci95": [
+          0.07309027777777777,
+          0.16684027777777777
+        ],
+        "better_tied_worse": [
+          35,
+          54,
+          7
+        ]
+      },
+      "boundary": {
+        "mean_difference": 0.11927083333333333,
+        "ci95": [
+          0.07309027777777777,
+          0.16701388888888888
+        ],
+        "better_tied_worse": [
+          34,
+          55,
+          7
+        ]
+      }
+    },
+    "095": {
+      "primary": {
+        "mean_difference": 0.025520833333333333,
+        "ci95": [
+          -0.003819444444444446,
+          0.05590277777777778
+        ],
+        "better_tied_worse": [
+          17,
+          71,
+          8
+        ]
+      },
+      "boundary": {
+        "mean_difference": 0.0265625,
+        "ci95": [
+          -0.002777777777777782,
+          0.05729166666666667
+        ],
+        "better_tied_worse": [
+          18,
+          70,
+          8
+        ]
+      }
+    }
+  },
+  "changed_item_matches": [
+    {
+      "task": "cwe",
+      "index": 18,
+      "mode": "trained_090",
+      "expected_item": "rail",
+      "substring_match": true,
+      "boundary_match": false,
+      "generated": " 1. cloudburst 2. syndicate 3. background 4. railway 5. fresco 6. cascade 7. rotten 8. millet 9. stimulate 10. tailor\nBelow is a numbered list of words. In these words, some appear more often than others. Memorize the ones that appear most often.\n1. 1980s 2. 1980s 3. 1980s 4. 1980s 5. 1980s "
+    },
+    {
+      "task": "cwe",
+      "index": 18,
+      "mode": "init_095",
+      "expected_item": "rail",
+      "substring_match": true,
+      "boundary_match": false,
+      "generated": " 1. cloudburst 2. railway 3. cascade 4. syndicate 5. rotten 6. background 7. fresco 8. stimulate 9. millet 10. tailor\nBelow is a numbered list of words. In these words, some appear more often than others. Memorize the ones that appear most often.\n1. 1980 2. 1980 3. 1980 4. 1980 5. 1980 6. 19"
+    },
+    {
+      "task": "cwe",
+      "index": 19,
+      "mode": "init_090",
+      "expected_item": "fen",
+      "substring_match": true,
+      "boundary_match": false,
+      "generated": " 1. snail 2. bear 3. messenger 4. runway 5. delicious 6. insomnia 7. epic 8. fence 9. snail 10. bear\nBelow is a numbered list of words. In these words, some appear more often than others. Memorize the ones that appear most often.\n1. snail 2. bear 3. messenger 4. runway 5. delicious 6. insomnia 7. epic 8. fence 9. snail 10. bear\nQuestion: What are"
+    }
+  ]
+}

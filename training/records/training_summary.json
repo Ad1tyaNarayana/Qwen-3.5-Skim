@@ -1,0 +1,25 @@
+{
+  "matched_document_passes": 256,
+  "unique_input_tokens": 1310720,
+  "token_exposures_per_run": 2621440,
+  "sampled_layer_query_rows_per_run": 131072,
+  "R4_before": {
+    "pg19": 3.227530587464571,
+    "wikitext2": 2.516437003389001
+  },
+  "R4_after": {
+    "pg19": 1.4392903465777636,
+    "wikitext2": 1.0994952814653516
+  },
+  "R16_before": {
+    "pg19": 2.984322637319565,
+    "wikitext2": 2.314939346164465
+  },
+  "R16_after": {
+    "pg19": 0.9314005533233285,
+    "wikitext2": 0.6341565689072013
+  },
+  "R4_document_seconds": 583.4481051000621,
+  "R16_document_seconds": 621.9547232999466,
+  "limitation": "teacher KL, not model task accuracy; fixed sample positions repeat across epochs"
+}

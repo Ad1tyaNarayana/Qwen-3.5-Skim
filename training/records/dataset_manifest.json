@@ -1,0 +1,1449 @@
+{
+  "selection_seed": "qwen-boundary-v1:",
+  "pg19_manifest_revision": "4d28bd77e66947ad3835cf78ed7aaeb4dd87ad8b",
+  "pg19_note": "individual official-split book prefix capped 1 MiB; each window stays within one book",
+  "wiki_note": "single top-level article per window, official splits",
+  "checks": "upstream PG book IDs and exact document hashes disjoint across train/validation/test; no near-duplicate guarantee",
+  "documents": [
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/32027.txt",
+      "path": "results\\plan_boundary\\books\\train_32027.txt",
+      "bytes": 227366,
+      "sha256": "083de8db911033aa51a9b930b3fb1d0f27669ba4fa9ce88fd854452e257f7f73",
+      "token_count": 49190,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/1165.txt",
+      "path": "results\\plan_boundary\\books\\train_1165.txt",
+      "bytes": 280289,
+      "sha256": "9b638d20ca8fecf4b1ef2b57b8212533f78c1afec2cff6334c7bb7445fc283ca",
+      "token_count": 76348,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/46702.txt",
+      "path": "results\\plan_boundary\\books\\train_46702.txt",
+      "bytes": 104441,
+      "sha256": "c96df04722458fedfc63578d58e87b972de0a66a2c6f54e875c437d315c0bf47",
+      "token_count": 31036,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/47405.txt",
+      "path": "results\\plan_boundary\\books\\train_47405.txt",
+      "bytes": 270201,
+      "sha256": "ee791d98e6f8203ba7271e26159b9c8c8d8a2a7b969fdbb2b8586732174448a2",
+      "token_count": 68571,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/55427.txt",
+      "path": "results\\plan_boundary\\books\\train_55427.txt",
+      "bytes": 235845,
+      "sha256": "a0ac4204578a095a8b1e188e4fae5e650c089c31eb124ccc0e4b5f1174e25b49",
+      "token_count": 56403,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/47232.txt",
+      "path": "results\\plan_boundary\\books\\train_47232.txt",
+      "bytes": 285423,
+      "sha256": "76f1dba9427c8fce72eda46d1a70a17eae91d3ae138d4ed90d4ba8643c73994a",
+      "token_count": 69677,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/5600.txt",
+      "path": "results\\plan_boundary\\books\\train_5600.txt",
+      "bytes": 1048576,
+      "sha256": "ab5075db245979ebb2240b774c133c4b268c92e310e278519aea51c10aba9ec8",
+      "token_count": 256849,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/27852.txt",
+      "path": "results\\plan_boundary\\books\\train_27852.txt",
+      "bytes": 137315,
+      "sha256": "6397a837238f82aa4ddb1e53a51e588ea3a37783689319253fa4f3f9e8b5864d",
+      "token_count": 33853,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/52126.txt",
+      "path": "results\\plan_boundary\\books\\train_52126.txt",
+      "bytes": 295924,
+      "sha256": "2091837febefef00fe0b4d299e3b569dcf56a333f00c9b4a01ad1b2ff30c2d1d",
+      "token_count": 75051,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/45076.txt",
+      "path": "results\\plan_boundary\\books\\train_45076.txt",
+      "bytes": 103461,
+      "sha256": "aa22000f78accdcba7512d66d6605b232df16cb12bcaba314c48fbb1e76b7513",
+      "token_count": 24848,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/41736.txt",
+      "path": "results\\plan_boundary\\books\\train_41736.txt",
+      "bytes": 482418,
+      "sha256": "6051219effafdd47b6ea8d1431992ec65f614dfe2bf6eea8fc3e9de4b79eddea",
+      "token_count": 111891,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/32183.txt",
+      "path": "results\\plan_boundary\\books\\train_32183.txt",
+      "bytes": 1048576,
+      "sha256": "528b08910946b3e5417761ba271234285b7181ffbcf0d07828df5eebfd99d169",
+      "token_count": 295571,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/56154.txt",
+      "path": "results\\plan_boundary\\books\\train_56154.txt",
+      "bytes": 424257,
+      "sha256": "6e01f9b4225d39e732de971bba808ea6835818c465c631789872577fb85e64ad",
+      "token_count": 112279,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/35572.txt",
+      "path": "results\\plan_boundary\\books\\train_35572.txt",
+      "bytes": 678821,
+      "sha256": "f23e5c316a1f1409c50e20024cace4b406c326bf8c49de369d694a6fa404aa7f",
+      "token_count": 164608,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/40746.txt",
+      "path": "results\\plan_boundary\\books\\train_40746.txt",
+      "bytes": 412298,
+      "sha256": "e1d593a4f29840b92e2e7c7a5adcc2a9514c92397ec2edcc28c41326e259e18b",
+      "token_count": 96930,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/24877.txt",
+      "path": "results\\plan_boundary\\books\\train_24877.txt",
+      "bytes": 487561,
+      "sha256": "59ccf206896673f154e2b09a7943f639c2eb3cfe9ed58604b417e94c514331ce",
+      "token_count": 120662,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/48551.txt",
+      "path": "results\\plan_boundary\\books\\train_48551.txt",
+      "bytes": 361497,
+      "sha256": "faacbd3540d6235809859bda43f08f2a11c4e9914b439a0aa0028db3e5c30578",
+      "token_count": 83968,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/32568.txt",
+      "path": "results\\plan_boundary\\books\\train_32568.txt",
+      "bytes": 463991,
+      "sha256": "c114efb3d6b50b5167541d0934e520097a87301cf686473da7d33e101ace9ce9",
+      "token_count": 118978,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/6914.txt",
+      "path": "results\\plan_boundary\\books\\train_6914.txt",
+      "bytes": 67704,
+      "sha256": "05c9a7e44ba2e3fde90e759433e9d82c7d3bb10dd9c360811427d994ae449913",
+      "token_count": 17057,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/42633.txt",
+      "path": "results\\plan_boundary\\books\\train_42633.txt",
+      "bytes": 325815,
+      "sha256": "d3b29c87b44aa428fd0fb60625a235f3b9453a5c9434c68e9aa9dff660a6f2dd",
+      "token_count": 79226,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/24557.txt",
+      "path": "results\\plan_boundary\\books\\train_24557.txt",
+      "bytes": 266550,
+      "sha256": "016f632e1aa30c744d166c62ebaf67700d82267588ab251c80d9c755171564a7",
+      "token_count": 65215,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/35765.txt",
+      "path": "results\\plan_boundary\\books\\train_35765.txt",
+      "bytes": 656692,
+      "sha256": "7291fbd8ba90f277886d181097cba71fffea5771ef09667dc949720b4ebaa2e7",
+      "token_count": 159793,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/37074.txt",
+      "path": "results\\plan_boundary\\books\\train_37074.txt",
+      "bytes": 207082,
+      "sha256": "c6edb28a3af191e65d4045f50eab0eea090b64973798dcdd1d9a6e1abe16108c",
+      "token_count": 58873,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/41611.txt",
+      "path": "results\\plan_boundary\\books\\train_41611.txt",
+      "bytes": 824748,
+      "sha256": "775b56b77b17397a95a2353a942e6dc2cb9ad92c045f7fa438f22999e460d8f0",
+      "token_count": 198527,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/57228.txt",
+      "path": "results\\plan_boundary\\books\\train_57228.txt",
+      "bytes": 162305,
+      "sha256": "a008054fc2a1985c6b78c0f22e39a4a88a2ad8ebe749adbccebfa418e97fa605",
+      "token_count": 41498,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/39089.txt",
+      "path": "results\\plan_boundary\\books\\train_39089.txt",
+      "bytes": 283763,
+      "sha256": "fde23f6a117c4cbbd49811d558f762f4d772144f9e3841665d20c7b56d4798c1",
+      "token_count": 79137,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/47880.txt",
+      "path": "results\\plan_boundary\\books\\train_47880.txt",
+      "bytes": 141735,
+      "sha256": "2fa55da9f0cc198826ce50f65132db92fd0cee8e434294ac9074131c0a1f1249",
+      "token_count": 31316,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/31277.txt",
+      "path": "results\\plan_boundary\\books\\train_31277.txt",
+      "bytes": 377856,
+      "sha256": "424547ae121b02ed23a7c5c68d209d04599b0db19da3b06b28a368c2613b1574",
+      "token_count": 139384,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/35462.txt",
+      "path": "results\\plan_boundary\\books\\train_35462.txt",
+      "bytes": 629120,
+      "sha256": "a8947b0a18ab435416d79de41abc2dee7fdcca2439f9f4945fd9617a8ca005b6",
+      "token_count": 162421,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/48816.txt",
+      "path": "results\\plan_boundary\\books\\train_48816.txt",
+      "bytes": 1046814,
+      "sha256": "01847db615e84881cc962bedd786c0393af6ca8f56da90c57f021284c656a7f2",
+      "token_count": 287522,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/57399.txt",
+      "path": "results\\plan_boundary\\books\\train_57399.txt",
+      "bytes": 848550,
+      "sha256": "4ed9ec33c1950f05cfb3da12a4c25830dcac83e7197709f6b9c66dbe64bf33e9",
+      "token_count": 218513,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/1188.txt",
+      "path": "results\\plan_boundary\\books\\train_1188.txt",
+      "bytes": 313860,
+      "sha256": "40149ed27da80321b7a21d37ded7f6561f3f1ad0a795e603dcf9ff2a8e3fe8cb",
+      "token_count": 76190,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/53568.txt",
+      "path": "results\\plan_boundary\\books\\train_53568.txt",
+      "bytes": 1048576,
+      "sha256": "644b005133a1ce87b94567fefcf5d87ba137a2de5c4bd08ab26edefbafb10301",
+      "token_count": 246972,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/40636.txt",
+      "path": "results\\plan_boundary\\books\\train_40636.txt",
+      "bytes": 68086,
+      "sha256": "ec783bd15ad3459a484719280cf1e9afe6954006c846c7ddf436af7ee0a94284",
+      "token_count": 20158,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/23519.txt",
+      "path": "results\\plan_boundary\\books\\train_23519.txt",
+      "bytes": 549281,
+      "sha256": "2d9c5dee591c255f43e0b1683a23be941b135364c2b4eef91a4ff9b1bb18d597",
+      "token_count": 131231,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/6743.txt",
+      "path": "results\\plan_boundary\\books\\train_6743.txt",
+      "bytes": 207643,
+      "sha256": "73ea7f6ca98567c80c63813416f20e3e48c15f908fdb88f6a2199dd6ba2c5271",
+      "token_count": 52252,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/40301.txt",
+      "path": "results\\plan_boundary\\books\\train_40301.txt",
+      "bytes": 427430,
+      "sha256": "a2fc4d04f091a3f4c56afc73b775c7e19edf0f76c3a5c0778ba02d2946c4948d",
+      "token_count": 106745,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/36306.txt",
+      "path": "results\\plan_boundary\\books\\train_36306.txt",
+      "bytes": 1048576,
+      "sha256": "7f3b44d381abf79caa7e36866c54efe820436f6e5cbfd495c43c8e91c6354b60",
+      "token_count": 242227,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/33487.txt",
+      "path": "results\\plan_boundary\\books\\train_33487.txt",
+      "bytes": 672316,
+      "sha256": "a4fba7f7a44087d55bf5201f052961b58f519b95ff45f215f664251602d03715",
+      "token_count": 158556,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/28353.txt",
+      "path": "results\\plan_boundary\\books\\train_28353.txt",
+      "bytes": 99018,
+      "sha256": "01984f6096e64cf4cb0f417a6f2df09f2e7ee92af2db527a8777623b18b1fcec",
+      "token_count": 25410,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/8385.txt",
+      "path": "results\\plan_boundary\\books\\train_8385.txt",
+      "bytes": 350355,
+      "sha256": "9fbfd6dc8ff74f33fab19a7e8de91b5cd45b264488c7736f1415e7405497ad97",
+      "token_count": 84648,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/24457.txt",
+      "path": "results\\plan_boundary\\books\\train_24457.txt",
+      "bytes": 572626,
+      "sha256": "f1a96fe885c6721ad2b330970fad4e5b0f95242ca62c78a66f8a79258aeaa71e",
+      "token_count": 140146,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/10461.txt",
+      "path": "results\\plan_boundary\\books\\train_10461.txt",
+      "bytes": 793978,
+      "sha256": "fb6eaff27402ec281ae0221339f4733aa9efdfcc90c2569c231e8b1e3aa434ea",
+      "token_count": 197527,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/42011.txt",
+      "path": "results\\plan_boundary\\books\\train_42011.txt",
+      "bytes": 295120,
+      "sha256": "7625ea96eb56cbdfe722b890c29fc09f86ab32341b45e10319a5b3a029538523",
+      "token_count": 72860,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/41158.txt",
+      "path": "results\\plan_boundary\\books\\train_41158.txt",
+      "bytes": 151030,
+      "sha256": "63e738a8ec7605406d4cd17d6c2dc5ca252e54fff9cba2aa4bb04c661b758299",
+      "token_count": 39358,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/39092.txt",
+      "path": "results\\plan_boundary\\books\\train_39092.txt",
+      "bytes": 871552,
+      "sha256": "b227d56dee6a9d194f79072bc3cc6e733cd3e782aff3bb62eb9aa8b0b4aad046",
+      "token_count": 239831,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/49177.txt",
+      "path": "results\\plan_boundary\\books\\train_49177.txt",
+      "bytes": 619816,
+      "sha256": "74e2c3a57031fbf3eb40a760b298f9358db6db452e6a1f5ccba06c6a48de7b8e",
+      "token_count": 149800,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/46345.txt",
+      "path": "results\\plan_boundary\\books\\train_46345.txt",
+      "bytes": 142926,
+      "sha256": "591b1580f96e51ddc85cbd1afb97dbf9edd98904860d8945789ec6752565e531",
+      "token_count": 36655,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/43346.txt",
+      "path": "results\\plan_boundary\\books\\train_43346.txt",
+      "bytes": 363330,
+      "sha256": "196bfd37ae0f52109451c70338d54c85424cd4059174ed2a5ad7c413d9ac36b8",
+      "token_count": 88163,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/45814.txt",
+      "path": "results\\plan_boundary\\books\\train_45814.txt",
+      "bytes": 705119,
+      "sha256": "8811584e26a98b7e719067bc9e6483c51b8e78bb1ad7c47ee4d2a3c414009e73",
+      "token_count": 197445,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/389.txt",
+      "path": "results\\plan_boundary\\books\\train_389.txt",
+      "bytes": 120963,
+      "sha256": "875ba6fe22d4cf8057bb609d9d9f75b8caf43838be1d906e910f9b5c6d84ac56",
+      "token_count": 29599,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/54942.txt",
+      "path": "results\\plan_boundary\\books\\train_54942.txt",
+      "bytes": 145051,
+      "sha256": "b0e0dec7920fed8a5dc8093d801f876efbb20bea593bdc46f59778c82543453e",
+      "token_count": 34852,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/31091.txt",
+      "path": "results\\plan_boundary\\books\\train_31091.txt",
+      "bytes": 537122,
+      "sha256": "07e5c4ad0225ec03be85c8fc091af129f289fa52e32f93c0daa4e1ba7eb5099f",
+      "token_count": 131762,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/39104.txt",
+      "path": "results\\plan_boundary\\books\\train_39104.txt",
+      "bytes": 765022,
+      "sha256": "1eae71d2fe9cbf53afea80f30ddd496798c0838a70626437b2f485f935b897f8",
+      "token_count": 178984,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/7097.txt",
+      "path": "results\\plan_boundary\\books\\train_7097.txt",
+      "bytes": 361946,
+      "sha256": "1688a5444439b5fe86cc69a0ddcc587384fad19ac7e7818a74f2e788638bd4e7",
+      "token_count": 84912,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/5972.txt",
+      "path": "results\\plan_boundary\\books\\train_5972.txt",
+      "bytes": 697941,
+      "sha256": "edcc8bb370bd104f5580040987f39f619d1c1fbfa9c901df93aa5619aebfb86f",
+      "token_count": 173734,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/36601.txt",
+      "path": "results\\plan_boundary\\books\\train_36601.txt",
+      "bytes": 296828,
+      "sha256": "15ef60de9bb8073ece28b71714b83b703dfa9bed356dbededde16cc6469ef552",
+      "token_count": 71193,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/47578.txt",
+      "path": "results\\plan_boundary\\books\\train_47578.txt",
+      "bytes": 480604,
+      "sha256": "9093e02b8730b79a0977090ec83da021c8845856d88aa0f598817a58b1488dc9",
+      "token_count": 120822,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/45854.txt",
+      "path": "results\\plan_boundary\\books\\train_45854.txt",
+      "bytes": 553914,
+      "sha256": "7a7a694268a43f6ee54a097ba56b6431ea994dcfafe4de14f27d150e0e6eabd2",
+      "token_count": 135001,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/55057.txt",
+      "path": "results\\plan_boundary\\books\\train_55057.txt",
+      "bytes": 191219,
+      "sha256": "0aace42137aa55e056ef860101e5148eaa7ca3dfd24646a5980b4e735b1dfd0d",
+      "token_count": 47848,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/48096.txt",
+      "path": "results\\plan_boundary\\books\\train_48096.txt",
+      "bytes": 106327,
+      "sha256": "b54b550baa3adf57f2fe062c6c4afe53daff97b37836e09fa6a45d35a8a399a4",
+      "token_count": 28372,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/32435.txt",
+      "path": "results\\plan_boundary\\books\\train_32435.txt",
+      "bytes": 183546,
+      "sha256": "5c406378fe1cb2dfdc5468767abb9d111812246684107d25012c69edefc32346",
+      "token_count": 66930,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/46146.txt",
+      "path": "results\\plan_boundary\\books\\train_46146.txt",
+      "bytes": 156983,
+      "sha256": "9c4e1cfe0b1a1641be3eadcaf0ee4fcc485584d5c1123ef04ce3e3d3ac18215d",
+      "token_count": 37816,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "train",
+      "document_id": "train/45152.txt",
+      "path": "results\\plan_boundary\\books\\train_45152.txt",
+      "bytes": 97245,
+      "sha256": "39bdd625c8fe67c3a181ccbb979a24fe09c2f7d6b5b3deefda6ddcb4b2730626",
+      "token_count": 24904,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "validation",
+      "document_id": "validation/48089.txt",
+      "path": "results\\plan_boundary\\books\\validation_48089.txt",
+      "bytes": 415583,
+      "sha256": "4f89427e5fc1a6265fd76cd0877476c25f185980176a0529c8854ab5a867d742",
+      "token_count": 94481,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "validation",
+      "document_id": "validation/13089.txt",
+      "path": "results\\plan_boundary\\books\\validation_13089.txt",
+      "bytes": 576815,
+      "sha256": "a3eb3813dd81bf2ec2694c9de68f27624b586f73f15156ab06d6efb10a4d44ca",
+      "token_count": 127869,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "validation",
+      "document_id": "validation/49091.txt",
+      "path": "results\\plan_boundary\\books\\validation_49091.txt",
+      "bytes": 184256,
+      "sha256": "80110648e98998d7807305ddbfb8eab3c811b4bdc7cc82ca87a279d2a42cd924",
+      "token_count": 42878,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "validation",
+      "document_id": "validation/4024.txt",
+      "path": "results\\plan_boundary\\books\\validation_4024.txt",
+      "bytes": 93433,
+      "sha256": "70d4de73ab7d9d8d05f7d2bca2826203cc0e45a264a9e37fd5309315df3c0dcc",
+      "token_count": 24506,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "test",
+      "document_id": "test/26183.txt",
+      "path": "results\\plan_boundary\\books\\test_26183.txt",
+      "bytes": 475456,
+      "sha256": "b73ddfcfe10430b96635b021312cbe21eaa6227bf1614b39846d4234d9e12a66",
+      "token_count": 125665,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "test",
+      "document_id": "test/4128.txt",
+      "path": "results\\plan_boundary\\books\\test_4128.txt",
+      "bytes": 95877,
+      "sha256": "23a359e1c8734cf74372442fbedc6ec6bf9ecaf47e6936628cb6dba90fb6409b",
+      "token_count": 25189,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "test",
+      "document_id": "test/4047.txt",
+      "path": "results\\plan_boundary\\books\\test_4047.txt",
+      "bytes": 624607,
+      "sha256": "a1126b6bec29256f9e92fb120c71520623694813d3a9772853c09ad1c5f75f8a",
+      "token_count": 152823,
+      "window_tokens": 16384
+    },
+    {
+      "source": "pg19",
+      "split": "test",
+      "document_id": "test/5396.txt",
+      "path": "results\\plan_boundary\\books\\test_5396.txt",
+      "bytes": 956818,
+      "sha256": "ff10a13b1a0007d7c1a06ebc5c5e85990063c43bbc44af62059455631f62dc42",
+      "token_count": 237124,
+      "window_tokens": 16384
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:104",
+      "start_char": 1742393,
+      "end_char": 1785189,
+      "sha256": "c8c7b40a7c8ae3ca65b2c5f43d8da687d6c4f64781114c620c878de9a9924ed1",
+      "token_count": 11346,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:611",
+      "start_char": 10480197,
+      "end_char": 10519479,
+      "sha256": "9610eaa09e30f18f1af2bafa2b049c741ec64ace03b473645d68c6a134263c7f",
+      "token_count": 8224,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:20",
+      "start_char": 154057,
+      "end_char": 210113,
+      "sha256": "b16ada8d83f04150ba8991946e263400253be77be2c21317f53de2e6258b993f",
+      "token_count": 11426,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:196",
+      "start_char": 3457922,
+      "end_char": 3479561,
+      "sha256": "cb43a8254035eef963b40102b2b0f3b57096ff7c2c091f2e5732b39288387aed",
+      "token_count": 4411,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:455",
+      "start_char": 7497567,
+      "end_char": 7530663,
+      "sha256": "f33b86049d54ebe0b1d8f4eadf545281575d666bb87ae9e108fa2018897b202d",
+      "token_count": 7354,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:468",
+      "start_char": 7817823,
+      "end_char": 7842122,
+      "sha256": "2e9142d2d6a8ecd23535280663680651134f417574c7fb383953290d57e9375e",
+      "token_count": 5303,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:167",
+      "start_char": 2947097,
+      "end_char": 2985480,
+      "sha256": "7ca8347ccebdf5c7edb7b3aaf416e008833894731a85ec249405ccc66e1159db",
+      "token_count": 7679,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:542",
+      "start_char": 9124676,
+      "end_char": 9144365,
+      "sha256": "70ad5a3af568f91ef0b42e13465dac6ef604dd226ef6f94c53e5323cb16806e4",
+      "token_count": 4411,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:28",
+      "start_char": 331466,
+      "end_char": 361553,
+      "sha256": "edb9ba6ef7ea1387b2cb8f96eaa12d1cde87edbf390e19a521fad83033ee2757",
+      "token_count": 6475,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:537",
+      "start_char": 8976585,
+      "end_char": 9025496,
+      "sha256": "5d7fcf8ba220f8515749e46204720fd0017cbadde37483c1e9a9f25b0f1ee3ce",
+      "token_count": 11080,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:588",
+      "start_char": 10054684,
+      "end_char": 10100914,
+      "sha256": "210225bc44b792be572648548c8c5cda16ccd4755c6e5a38e3ab8317aca6711b",
+      "token_count": 11199,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:176",
+      "start_char": 3123954,
+      "end_char": 3148720,
+      "sha256": "9c4f28677b5a4dc3e7bb9242ca3e379db66be68fc02e807e3f80ccb36a7c8e26",
+      "token_count": 5443,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:516",
+      "start_char": 8635243,
+      "end_char": 8654549,
+      "sha256": "b77342092dd7b2784db545094476b49c56460a9a80fdc1d6b1719fcfaed1c352",
+      "token_count": 4338,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:365",
+      "start_char": 6040239,
+      "end_char": 6059075,
+      "sha256": "5e69106d3e8d73619432e8c7b18a0241bf69b2d006996b18f43e39cfd877c31c",
+      "token_count": 4182,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:451",
+      "start_char": 7415304,
+      "end_char": 7434922,
+      "sha256": "1f74b9e5e8b7c4e57dcd1a5913709f73e300ab4f040cb516bf5644b7a24160c0",
+      "token_count": 4196,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:278",
+      "start_char": 4419563,
+      "end_char": 4459872,
+      "sha256": "cc22933cab644f441c76c632e4492a6b3350a9d2b2507450f464ca6eaa8f435e",
+      "token_count": 9253,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:509",
+      "start_char": 8496194,
+      "end_char": 8531052,
+      "sha256": "a8ebda8593b009d5d3aad29609deaee38b0a9abc5c9fa2a558d61ef02c8cd536",
+      "token_count": 8646,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:384",
+      "start_char": 6264105,
+      "end_char": 6333573,
+      "sha256": "bd0f7fefd11e297a8e1c1c0bd2de3e741dcfe44e29c3ed8d4802bc2efd0ac33b",
+      "token_count": 15859,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:54",
+      "start_char": 850908,
+      "end_char": 878078,
+      "sha256": "e37b3ed544355af44f692a1b6884a91d20831bda4ac2799a2371be0c6130f4c2",
+      "token_count": 6453,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:437",
+      "start_char": 7186594,
+      "end_char": 7203986,
+      "sha256": "d74efed39048b168dea513574ccf025842b891d1e5b5baabb8c795d0d14d2ceb",
+      "token_count": 4300,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:22",
+      "start_char": 223347,
+      "end_char": 260614,
+      "sha256": "20fa5c2c71cc6027a8e483062e9548b043b68d5d2512f12f182d4464fada09dd",
+      "token_count": 7748,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:281",
+      "start_char": 4481820,
+      "end_char": 4531598,
+      "sha256": "187c2c0758301c1ba22b6b52fd3276ec9ebfdaa2851f4f905c897d6518a1733e",
+      "token_count": 12447,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:399",
+      "start_char": 6574198,
+      "end_char": 6597784,
+      "sha256": "48d3941d472061f02fd712f6509742a43f0c492f6f782c75b2abbdbbec4494b2",
+      "token_count": 5526,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:526",
+      "start_char": 8768094,
+      "end_char": 8788838,
+      "sha256": "857b97bcf0f3de0041de6bb6808c4e2bdab40f893e90d2842ce70e883a8a30df",
+      "token_count": 4744,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:551",
+      "start_char": 9315795,
+      "end_char": 9354449,
+      "sha256": "1212828840802032c8a09d6213470c1d7e399fd7abd9c00fd4e38186d4164002",
+      "token_count": 8325,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:373",
+      "start_char": 6109496,
+      "end_char": 6130245,
+      "sha256": "4f7e0356c22728eccf0f33ccf075fd7b7a9043ae4d5a46d23d7a17acae94d9cf",
+      "token_count": 4550,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:517",
+      "start_char": 8654549,
+      "end_char": 8673859,
+      "sha256": "adfb377384f3340f7c3a3ababefd49696852d192dfa75c216fe085ecceccca35",
+      "token_count": 4364,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:302",
+      "start_char": 4910954,
+      "end_char": 4941781,
+      "sha256": "25781bfa4656026f4d60092060efa48e96ac9385d4899f125f72e6b5ee84df55",
+      "token_count": 7001,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:555",
+      "start_char": 9442518,
+      "end_char": 9491560,
+      "sha256": "4ebcda5dc01be73587aa49422a7e627170efdee1e570963ef565e6170d3d14a8",
+      "token_count": 11615,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:466",
+      "start_char": 7712942,
+      "end_char": 7750732,
+      "sha256": "5516b9f46646a9cd7eac10fc5f49e5a3cb1b797ca104c2f996319a45ecfe348c",
+      "token_count": 8466,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:93",
+      "start_char": 1591523,
+      "end_char": 1615102,
+      "sha256": "fad80305a66fc0a53a498fee9a0f5e332942eabc3be7d5882eb6d1b274d64f46",
+      "token_count": 5690,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:108",
+      "start_char": 1878949,
+      "end_char": 1907349,
+      "sha256": "66c232a0901c84d62b2b003d45b2d3d31e25d3e0b27bb48bca50b6700c8dc187",
+      "token_count": 6558,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:260",
+      "start_char": 4164693,
+      "end_char": 4189494,
+      "sha256": "bcbfaad07263eb1ee72e4ade0dde71fbad5fa4c3b92192d4de1712b7cf779daa",
+      "token_count": 5419,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:171",
+      "start_char": 3015544,
+      "end_char": 3056278,
+      "sha256": "1a8cf035ffa684a55f8a37c87b86a526fac8ff0473b04d2e479531dc310c48bc",
+      "token_count": 9006,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:349",
+      "start_char": 5701149,
+      "end_char": 5759416,
+      "sha256": "7eb2f11fcf88df2cec33e2948bae0e259b42eaa7582b245493661fb0cc0a1bdb",
+      "token_count": 12715,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:500",
+      "start_char": 8292542,
+      "end_char": 8311704,
+      "sha256": "27ee4e3cc3c9f15d9c674d45a36a3e31c05de3c4475c2a89287d8565e7294696",
+      "token_count": 4298,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:607",
+      "start_char": 10393145,
+      "end_char": 10451097,
+      "sha256": "abd9f7a16656df31b7c0c316c4060782bbf677898f3ecefb960e0e137b7b84cd",
+      "token_count": 12597,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:508",
+      "start_char": 8473948,
+      "end_char": 8496194,
+      "sha256": "697aa0fef2bdee0f33c8ac3501e10a1470955e28f50821eff61136ca29627334",
+      "token_count": 4587,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:38",
+      "start_char": 518373,
+      "end_char": 569952,
+      "sha256": "ff838a631374a0a0d56900751d585a69361a0f054852824f2eb28d4ac191945a",
+      "token_count": 12453,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:360",
+      "start_char": 5948966,
+      "end_char": 5968944,
+      "sha256": "77f8719f6da6bcaa29afdf91e190422bf8071f99f6db7582fa7ad12631aab373",
+      "token_count": 4191,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:387",
+      "start_char": 6373380,
+      "end_char": 6393455,
+      "sha256": "c67b56324e5e9b6bf0a8e8dae45385161e3cda9aaeccf6dea6729a96605dbea1",
+      "token_count": 5377,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:321",
+      "start_char": 5287356,
+      "end_char": 5308304,
+      "sha256": "4f772383415efae1722e1a16437602ed2bbbeb64408a2dab1a0363a7aca9e288",
+      "token_count": 4349,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:604",
+      "start_char": 10332592,
+      "end_char": 10374579,
+      "sha256": "ac6c60acb3a1257a1ba9e3547eabd1d152618a337f3b2864d5205949f0ab7cfe",
+      "token_count": 9440,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:62",
+      "start_char": 1050993,
+      "end_char": 1071509,
+      "sha256": "a2edc5a4018c1d3eab61bd426ff2891c329ba9a74db9f4007a1400e11665fb28",
+      "token_count": 5319,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:189",
+      "start_char": 3323472,
+      "end_char": 3356695,
+      "sha256": "f32461a252c74345c9967e80b82cb571b55b44d4a541f52abaf64822a3924976",
+      "token_count": 7736,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:314",
+      "start_char": 5160752,
+      "end_char": 5239371,
+      "sha256": "d3dd3cf9b14f991820566b364bbf25baf6840c127e999a9bd04ab90c065c463b",
+      "token_count": 17930,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:452",
+      "start_char": 7434922,
+      "end_char": 7472419,
+      "sha256": "bb7c2d565dd34e156b82403ae48db3a5883ced05651534dcbb63cd5f4909eeab",
+      "token_count": 8644,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:406",
+      "start_char": 6714842,
+      "end_char": 6750379,
+      "sha256": "a9df17aa6f3ad0052d133dd596a6b2328a02f99ac449a147c515126e6fd5f8df",
+      "token_count": 9116,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:155",
+      "start_char": 2730481,
+      "end_char": 2748299,
+      "sha256": "68666891639f389ecf2ca53abdf602ce6ee06ca46e231f5bd02895b3cedf1b09",
+      "token_count": 4132,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:74",
+      "start_char": 1250579,
+      "end_char": 1298306,
+      "sha256": "1dcfbd13924f1d43f67e0c4342b7db0baf4287718782606e183626996c444115",
+      "token_count": 11153,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:404",
+      "start_char": 6661312,
+      "end_char": 6711558,
+      "sha256": "fc238b6d85c7dd7b150f3e561ea7def7b70c1aa0305178388031ffdf014592fa",
+      "token_count": 12314,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:436",
+      "start_char": 7161249,
+      "end_char": 7186594,
+      "sha256": "0a60d644d433adaadc542d2654d54432f609a7b0ef3d1c79e4c3c58f522bb1c9",
+      "token_count": 6097,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:313",
+      "start_char": 5144374,
+      "end_char": 5160752,
+      "sha256": "0109f58b546f2b3c59a1cdc95bcb442f93a6428eb62fc1f0a8186e4fde382f1a",
+      "token_count": 4101,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:296",
+      "start_char": 4769277,
+      "end_char": 4827302,
+      "sha256": "eeb7556b1338669184bf14e6193e7119329434b7d48316d0efa5f2798349e4c4",
+      "token_count": 12883,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:505",
+      "start_char": 8406027,
+      "end_char": 8426197,
+      "sha256": "cad2f44f94afe18aa595d3dd45d4f09fea33c8958fe050a05606afa20316c08b",
+      "token_count": 4804,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:544",
+      "start_char": 9155908,
+      "end_char": 9198057,
+      "sha256": "1c7ab581686c12f1776625d29f4c0cc1f4627c1d85605a67b704390688e734e2",
+      "token_count": 9084,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:39",
+      "start_char": 569952,
+      "end_char": 617853,
+      "sha256": "dd11a2bcd6bf912ee2848a8e9736e20b822fa4d0104b397337cb4e4548164ea6",
+      "token_count": 10225,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:346",
+      "start_char": 5641546,
+      "end_char": 5657406,
+      "sha256": "46c9b395738b0e8d088b90f588f8cf35e1a5edeacf0e4c157f547e9856ace053",
+      "token_count": 4196,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:348",
+      "start_char": 5665265,
+      "end_char": 5701149,
+      "sha256": "6d10342756269aee99fbe006203267cbb46c422c925ea2e7cc4f58358f7a934d",
+      "token_count": 8594,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:175",
+      "start_char": 3092157,
+      "end_char": 3123954,
+      "sha256": "632fb507b70ea7e531c8323306d48168b8574756c10f9fa6b253631cd4075d32",
+      "token_count": 7182,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:514",
+      "start_char": 8582939,
+      "end_char": 8628030,
+      "sha256": "057002596e9cccb407a8c12536690081f2b82ee0e834d1ff95e9607f256339f2",
+      "token_count": 9625,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:170",
+      "start_char": 2996422,
+      "end_char": 3015544,
+      "sha256": "78e99e9793ab73b4dd7daa4a448bca6d9d7ec40e91c84443af3904ebffdeae8b",
+      "token_count": 4372,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:312",
+      "start_char": 5111208,
+      "end_char": 5144374,
+      "sha256": "4b7311d747b25cb8d160a406418e7a41b7252213b6fce976f3138bd27f998f1d",
+      "token_count": 8021,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "train",
+      "document_id": "train:408",
+      "start_char": 6756766,
+      "end_char": 6789080,
+      "sha256": "b09535ea4a3feef6abb9e38e3bb5411ebe9bedb9dad19d67498421af7435a27a",
+      "token_count": 7102,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "valid",
+      "document_id": "valid:5",
+      "start_char": 95869,
+      "end_char": 114019,
+      "sha256": "f1ee7b4612fec40c6fd915eff4d4b45c8ed23cca0a79af4255535e4ebab2ae24",
+      "token_count": 4359,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "valid",
+      "document_id": "valid:47",
+      "start_char": 912628,
+      "end_char": 951054,
+      "sha256": "c6acc3b05589f9ffe05860fefa331d6ced32f29f0cf59b94871f6fa845c531b7",
+      "token_count": 9235,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "valid",
+      "document_id": "valid:4",
+      "start_char": 36864,
+      "end_char": 95869,
+      "sha256": "44847b044130b8d62b29ca86135192320682bb6c522b9fafe851f390024cb312",
+      "token_count": 14121,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "valid",
+      "document_id": "valid:22",
+      "start_char": 309023,
+      "end_char": 343801,
+      "sha256": "568aec18c7d1d5c6a919406e8e201d053de32387ab55bc1112bd376d52e35034",
+      "token_count": 8196,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "test",
+      "document_id": "test:30",
+      "start_char": 624264,
+      "end_char": 647639,
+      "sha256": "690407acc3a594289e7a01242fb85d8776d0a4a06e0725d3124c9841a2c19500",
+      "token_count": 5160,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "test",
+      "document_id": "test:34",
+      "start_char": 697414,
+      "end_char": 743777,
+      "sha256": "8251a4dd0d989eecf3ba08478ea858cfe69c654d983c89e568a2dcdb5d4ce1b3",
+      "token_count": 10671,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "test",
+      "document_id": "test:1",
+      "start_char": 5666,
+      "end_char": 30099,
+      "sha256": "1e6b383b7b13a70f9813b6946fe76730cfd9208ab39e4c6f2035e4cb00e803de",
+      "token_count": 5449,
+      "window_tokens": 4096
+    },
+    {
+      "source": "wikitext2",
+      "split": "test",
+      "document_id": "test:39",
+      "start_char": 887348,
+      "end_char": 936307,
+      "sha256": "8eb5cfb05fc5d46abf1f17a455f4f519bdb9d6051d70db69fc7081fe66d40df7",
+      "token_count": 11239,
+      "window_tokens": 4096
+    }
+  ]
+}

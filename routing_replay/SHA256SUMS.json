@@ -1,0 +1,18 @@
+{
+  "README_REPLAY.txt": "c40b2db18424b7dd41cd590e06920dcb8690ac84c38ad5b5b30b2ede1f00f6d9",
+  "replay_from_tensors.py": "ff5ff3e94d223900a2337d355d691500bd3e9d12e01829c7ef7e739bb3785897",
+  "checkpoints/router.pt": "8207f0c20c0f013cb45fc0e083bebd6d81b34c392c06bea1e2f406c01438a7f4",
+  "historical_capture/plan_large_capture.py": "d95cf9f95a3421345426db8607fe2ddc9b75a911264790bcb3c9b714af0a79cf",
+  "original_replays/capture_router_animation.py": "1b9a679a9a8ed8f0fddc94c905d357a86acfb7abf906305f2730d16e99f7b78c",
+  "original_replays/query_replay.gif": "8648440681ea63231fa780712885582c5c18c796ad9c0af38bdbf543cd1df137",
+  "original_replays/query_replay_poster.png": "2e6bfa11fd6a0daa74b72a2c85d18be2fefafb468facd59f992e10ebd6610f52",
+  "original_replays/README_ANIMATIONS.txt": "996eda34e3db9cd27ae1ae1711d2245722217916db246722ef53e72bfca5deb5",
+  "original_replays/render_router_animation.py": "3f83c492d8812b5e50ddc3a4d76a5b2818e09d560f40c82264c4541420e6dea9",
+  "original_replays/trace.json": "83b5e0917f2b2d3090d6b720c6b7d6f3b8068846f8b397dfdff8088d0bfc543d",
+  "original_replays/tree_traversal.gif": "263d46452db6f9d4aa004bfc4765cb3fa3d512b3729ad4a912d1c4cab0f408ca",
+  "original_replays/tree_traversal_poster.png": "09761c7c465c34ea8e3e6e617fbb1c5d3e387976105e96b9c6dd0d704e218d8e",
+  "source/vector_router.py": "fca672825ccdc68b77008e77ed0995211f41e6387f5458a454551bea7ababd2e",
+  "source/zha_l6_reference.py": "991de5dc255d9eb23dd38504057eec6c6fa52cdd7d867ec405cce2476905daa2",
+  "teacher/doc0_layer3.pt": "4459dfff9d41c4bec4c71006a8f8d83f3513a4404c0006cda8d26300cf7a3a25",
+  "teacher/teacher_metadata.json": "b2b1c330cf02fc715610109b9d1de188e2b97d8c82184ee79089cca7ed330770"
+}

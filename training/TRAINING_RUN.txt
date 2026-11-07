@@ -1,0 +1,24 @@
+TRAINING RUN USED BY THE FINAL EXPERIMENT
+
+Frozen Qwen3.5-4B-Base revision 1001bb4d826a52d1f399e183466143f4da7b741b, BF16; learned reference queries in eight full-attention layers; all 24 recurrent layers retained. The final experiment uses the controlled R16 checkpoint BEFORE the one-document 32K continuation.
+
+DATA: 64 distinct PG-19 training books at 16,384 tokens each, plus 64 WikiText-2 training articles at 4,096 tokens each. Batch one document, no cross-document packing, fresh teacher state per document. 1,310,720 unique input tokens; two epochs = 2,621,440 token exposures, 256 updates per layer. 64 sampled query positions per document/layer, repeated across epochs. R4 and R16 use identical documents, order and query positions. Eight validation documents: four books and four articles. Manifests and overlap audits are included; source corpora and base model weights are not.
+
+LOSS: KL(dense attention pooled into chunks || predicted router chunk distribution), averaged across eligible sampled head/query rows within each level, then summed over eligible levels. Sink and incomplete-tail logits are exact. Reported validation averages those per-layer sums across layers/documents. This is attention-distribution KL, not language-model NLL or answer quality.
+R16 validation KL: PG-19 2.9843 -> 0.9314; WikiText-2 2.3149 -> 0.6342.
+R4 validation KL: PG-19 3.2275 -> 1.4393; WikiText-2 2.5164 -> 1.0995.
+
+OPTIMIZER: independent per-layer AdamW; betas (.9,.95), epsilon 1e-15, zero weight decay, clip norm 1. Peak LR .032; 20 warmup updates; stable phase; final 20% linear decay to 1% of peak. C4/L6/R16 references are shared across levels and KV-sharing query heads. Seed 94121, normal std .2. R4 initialization is nested within R16.
+
+TIME: RTX 5070 Ti 16 GB, Windows. Logged R16 training document-work sum: 621.9547 seconds (10.37 minutes); R4: 583.4481 seconds (9.72 minutes). These sums EXCLUDE some setup, validation, checkpoint serialization and downtime; they are not full wall-clock durations. The 15.542-hour number belongs to the later 480-branch EVALUATION, not training. Exact per-document timing is included.
+
+WHAT BROKE — SEPARATE STAGES:
+1. Earlier pilots packed TinyStories without document masks and allowed some WikiText windows to cross article boundaries. The controlled training run uses document-isolated examples and an audited manifest.
+2. An early sparse-prefill evaluation silently fell back to dense on boolean causal masks. The validator was fixed; affected sparse rows were excluded from corrected claims; later runs assert complete layer coverage and zero fallback. This was an inference/evaluation issue.
+3. A separate first 32K continuation attempt hit a free-space guard during Windows paging and saved no continuation. A later one-document continuation completed, but it is NOT the checkpoint used in the final experiment.
+4. Development evaluation workers exited after 18 saved branches; the other two resumed. All 480 final branches completed without logged evaluation errors.
+The supplied records do not document a nonfinite-loss/gradient failure in the completed controlled R16 run.
+
+CODE: code/train_zha_l6_controlled.py is the actual trainer. r16_multilevel_loss.py defines the loss; vector_router.py builds differentiable tree summaries; zha_l6_controlled.py defines initialization/schedule. Data preparation and overlap scripts are included. The code retains original model/corpus/output path assumptions and writes checkpoints: inspect and adapt before executing. This is historical source, not a turnkey installer. No retraining was performed to prepare this package.
+
+The separate routing replay package uses an EARLIER WikiText train-window teacher cache, not the controlled document-isolated training dataset or final benchmark. See its README for provenance.

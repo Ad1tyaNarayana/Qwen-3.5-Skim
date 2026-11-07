@@ -1,0 +1,134 @@
+{
+  "method": "exact lowercased 13-word shingles over selected tokenizer-decoded windows; overlap against union of train shingles; no semantic or paraphrase deduplication",
+  "train_unique_shingles": 896764,
+  "documents": [
+    {
+      "source": "pg19",
+      "split": "validation",
+      "document_id": "validation/48089.txt",
+      "unique_shingles": 12138,
+      "overlap_train": 14,
+      "overlap_fraction": 0.0011534025374855825
+    },
+    {
+      "source": "pg19",
+      "split": "validation",
+      "document_id": "validation/13089.txt",
+      "unique_shingles": 12765,
+      "overlap_train": 0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "source": "pg19",
+      "split": "validation",
+      "document_id": "validation/49091.txt",
+      "unique_shingles": 12346,
+      "overlap_train": 16,
+      "overlap_fraction": 0.0012959663048760731
+    },
+    {
+      "source": "pg19",
+      "split": "validation",
+      "document_id": "validation/4024.txt",
+      "unique_shingles": 10884,
+      "overlap_train": 0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "source": "pg19",
+      "split": "test",
+      "document_id": "test/26183.txt",
+      "unique_shingles": 10951,
+      "overlap_train": 30,
+      "overlap_fraction": 0.002739475846954616
+    },
+    {
+      "source": "pg19",
+      "split": "test",
+      "document_id": "test/4128.txt",
+      "unique_shingles": 11949,
+      "overlap_train": 0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "source": "pg19",
+      "split": "test",
+      "document_id": "test/4047.txt",
+      "unique_shingles": 11667,
+      "overlap_train": 0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "source": "pg19",
+      "split": "test",
+      "document_id": "test/5396.txt",
+      "unique_shingles": 11395,
+      "overlap_train": 0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "source": "wikitext2",
+      "split": "valid",
+      "document_id": "valid:5",
+      "unique_shingles": 2837,
+      "overlap_train": 0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "source": "wikitext2",
+      "split": "valid",
+      "document_id": "valid:47",
+      "unique_shingles": 2910,
+      "overlap_train": 0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "source": "wikitext2",
+      "split": "valid",
+      "document_id": "valid:4",
+      "unique_shingles": 2797,
+      "overlap_train": 0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "source": "wikitext2",
+      "split": "valid",
+      "document_id": "valid:22",
+      "unique_shingles": 2721,
+      "overlap_train": 0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "source": "wikitext2",
+      "split": "test",
+      "document_id": "test:30",
+      "unique_shingles": 3084,
+      "overlap_train": 0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "source": "wikitext2",
+      "split": "test",
+      "document_id": "test:34",
+      "unique_shingles": 3081,
+      "overlap_train": 0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "source": "wikitext2",
+      "split": "test",
+      "document_id": "test:1",
+      "unique_shingles": 3075,
+      "overlap_train": 0,
+      "overlap_fraction": 0.0
+    },
+    {
+      "source": "wikitext2",
+      "split": "test",
+      "document_id": "test:39",
+      "unique_shingles": 2880,
+      "overlap_train": 0,
+      "overlap_fraction": 0.0
+    }
+  ]
+}
